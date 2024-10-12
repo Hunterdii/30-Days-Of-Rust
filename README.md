@@ -84,21 +84,19 @@
 </div>
 
 <div align="center">
-  <h1>🦀 30 Days Of Rust: Day 1 - Introduction</h1>
+  <h1>🦀 30 Days Of Rust: Day 1 - Introduction 🚀</h1>
   <a href="https://www.linkedin.com/in/het-patel-8b110525a/?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" target="_blank">
     <img src="https://img.shields.io/badge/style--5eba00.svg?label=LinkedIn&logo=linkedin&style=social" alt="LinkedIn" />
   </a><a href="https://github.com/Hunterdii" target="_blank">
     <img src="https://img.shields.io/badge/Follow%20me%20on-GitHub-blue?style=flat-square&logo=github" alt="Follow me on GitHub" />
 </a>
-</div>
-
 
   <sub>Author:
   <a href="https://www.linkedin.com/in/het-patel-8b110525a/?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" target="_blank">Het Patel</a><br>
   </sub>
 </div>
 
-[Day 2 >>](./02_Day_Variables_builtin_functions/02_variables_builtin_functions.md)
+[Day 2 >>](./Variables%2C%20DataTypes/02_variables_data_types.md)
 
 
 ![30DaysOfRust](https://github.com/user-attachments/assets/a1083fb3-3eec-4d1e-b93a-fa4d7a99f180)
@@ -430,8 +428,8 @@ Thank you for joining **Day 1** of the 30 Days of Rust challenge! If you found t
 **Stay Connected**  
 📧 **Email**: [Hunterdii](mailto:hunterdii9879@gmail.com)  
 🐦 **Twitter**: [@HetPate94938685](https://twitter.com/HetPate94938685)  
-🌐 **Website**: [Hunterdii-Working On It](https://hunterdii.github.io/Portfolio-Temporary/)
+🌐 **Website**: [Working On It(Temporary)](https://hunterdii.github.io/Portfolio-Temporary/)
 
 
-[Day 2 >>](./02_Day_Variables_builtin_functions/02_variables_builtin_functions.md)
+[Day 2 >>](./Variables%2C%20DataTypes/02_variables_data_types.md)
 
