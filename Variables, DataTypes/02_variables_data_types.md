@@ -12,7 +12,7 @@
 
 </div>
 
-[<< Day 1](./README.md) | [Day 3 >>](../Control%20Flow/03_control_flow.md)
+[<< Day 1](../README.md) | [Day 3 >>](../Control%20Flow/03_control_flow.md)
 
 ![30DaysOfRust](https://github.com/user-attachments/assets/a1083fb3-3eec-4d1e-b93a-fa4d7a99f180)
 
