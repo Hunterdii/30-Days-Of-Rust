@@ -3,8 +3,8 @@
 | # Day | Topics                                                    |
 |------ |:---------------------------------------------------------:|
 | 01    | [Introduction to Rust](./Readme.md)|
-<!--| 02    | [Variables, Data Types](./02_Day_Variables_Data_Types/02_variables_data_types.md)|
-| 03    | [Control Flow](./03_Day_Control_Flow/03_control_flow.md)|
+| 02    | [Variables, Data Types](./Variables%2C%20DataTypes/02_variables_data_types.md)|
+<!--| 03    | [Control Flow](./03_Day_Control_Flow/03_control_flow.md)|
 | 04    | [Functions](./04_Day_Functions/04_functions.md)|
 | 05    | [Ownership and Borrowing](./05_Day_Ownership_and_Borrowing/05_ownership_and_borrowing.md)|
 | 06    | [Structs](./06_Day_Structs/06_structs.md)|
@@ -37,11 +37,11 @@
 
 <p align="center">
   <img src="https://img.shields.io/static/v1?label=%F0%9F%8C%9F&message=If%20Useful&style=flat&color=BC4E99" alt="Star Badge"/>
-  <img src="https://img.shields.io/badge/PRs-welcome-brightgreen.svg?longCache=true" alt="Pull Requests"/>
-  <img src="https://img.shields.io/badge/License-MIT-lightblue.svg?longCache=true" alt="MIT License"/>
+  <img src="https://img.shields.io/badge/PRs-welcome-brown.svg?longCache=true" alt="Pull Requests"/>
+  <img src="https://img.shields.io/github/license/Hunterdii/30-Days-Of-Rust?labelColor=Jade&color=%2327ae60&cacheSeconds=3600" alt="MIT License"/>
   <img src="https://badges.frapsoft.com/os/v1/open-source.svg?v=103" alt="Open Source Badge"/>
   <img src="https://img.shields.io/github/contributors/Hunterdii/30-Days-Of-Rust" alt="GitHub Contributors"/>
-  <img src="https://badgen.net/github/last-commit/Hunterdii/30-Days-Of-Rust" alt="Last Commit"/>
+  <img src="https://img.shields.io/github/last-commit/Hunterdii/30-Days-Of-Rust?display_timestamp=author&style=flat&logo=30-Days-Of-Rust&logoColor=%23F74C00&logoSize=auto&label=30%20Days%20Of%20Rust&labelColor=Lavender&color=%239b59b6&cacheSeconds=200" alt="Last Commit"/>
   <img src="https://img.shields.io/badge/Owner-%40Huntedii-<COLOR>.svg" alt="Owner Badge"/>
 <!--   <img src="https://img.shields.io/github/stars/Hunterdii/30-Days-Of-Rust?style=social" alt="GitHub Stars"/>-->
 </p> 
@@ -144,7 +144,7 @@
     - [✅ Exercise: Level 1](#-exercise-level-1)
     - [✅ Exercise: Level 2](#-exercise-level-2)
     - [✅ Exercise: Level 3 (OPTIONAL)](#-exercise-level-3-optional)
--   - [📝 Day 1 Summary](#-day-1-summary)
+  - [📝 Day 1 Summary](#-day-1-summary)
 
 
 
@@ -433,3 +433,4 @@ Thank you for joining **Day 1** of the 30 Days of Rust challenge! If you found t
 
 [Day 2 >>](./Variables%2C%20DataTypes/02_variables_data_types.md)
 
+---
