@@ -350,7 +350,7 @@ fn main() {
 - We covered the various **data types** available in Rust, including numeric types, boolean, character, and string.
 - We completed exercises to solidify our understanding of variables and data types.
 
-🌟 _Great job on completing Day 2! Keep practicing, and get ready for Day 3 where we will explore operators in Rust!_
+🌟 _Great job on completing Day 2! Keep practicing, and get ready for Day 3 where we will explore Control Flow in Rust!_
 
 Thank you for joining **Day 2** of the 30 Days of Rust challenge! If you found this helpful, don’t forget to ⭐ star this repository, share it with your friends, and stay tuned for more exciting lessons ahead!
 
