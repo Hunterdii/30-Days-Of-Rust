@@ -4,8 +4,8 @@
 |------ |:---------------------------------------------------------:|
 | 01    | [Introduction to Rust](./Readme.md)|
 | 02    | [Variables, Data Types](./Variables%2C%20DataTypes/02_variables_data_types.md)|
-<!--| 03    | [Control Flow](./03_Day_Control_Flow/03_control_flow.md)|
-| 04    | [Functions](./04_Day_Functions/04_functions.md)|
+| 03    | [Control Flow](./Control%20Flow/03_control_flow.md)|
+<!--| 04    | [Functions](./04_Day_Functions/04_functions.md)|
 | 05    | [Ownership and Borrowing](./05_Day_Ownership_and_Borrowing/05_ownership_and_borrowing.md)|
 | 06    | [Structs](./06_Day_Structs/06_structs.md)|
 | 07    | [Enums](./07_Day_Enums/07_enums.md)|
