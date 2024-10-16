@@ -6,7 +6,7 @@
 | 02    | [Variables, Data Types](./Variables%2C%20DataTypes/02_variables_data_types.md)|
 | 03    | [Control Flow](./Control%20Flow/03_control_flow.md)|
 | 04    | [Functions](./Functions/04_functions.md)|
-| 05    | [Ownership and Borrowing](./05_Day_Ownership_and_Borrowing/05_ownership_and_borrowing.md)|
+| 05    | [Ownership and Borrowing](./Ownership%20and%20Borrowing/05_ownership_and_borrowing.md)|
 <!--| 06    | [Structs](./06_Day_Structs/06_structs.md)|
 | 07    | [Enums](./07_Day_Enums/07_enums.md)|
 | 08    | [Collections](./08_Day_Collections/08_collections.md)|
