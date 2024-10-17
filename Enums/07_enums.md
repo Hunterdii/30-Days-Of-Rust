@@ -1,3 +1,5 @@
+[<< Previous](../Structs/06_structs.md) | [Home >>](../README.md#-day-1---introduction-to-rust)
+
 ## 🚀 Day 7: Coming Soon!
 
 🕒 We're gearing up for an exciting Day 7! Stay tuned as we explore **Enums** tomorrow, bringing you deeper insights and hands-on exercises. 🔧✨
