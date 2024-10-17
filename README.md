@@ -1,8 +1,8 @@
 # 🦀 30 Days of Rust
 
-| # Day | Topics                                                    |
+| Day   | Topics                                                    |
 |------ |:---------------------------------------------------------:|
-| 01    | [Introduction to Rust](./Readme.md)|
+| 01    | [Introduction to Rust](README.md)|
 | 02    | [Variables, Data Types](./Variables%2C%20DataTypes/02_variables_data_types.md)|
 | 03    | [Control Flow](./Control%20Flow/03_control_flow.md)|
 | 04    | [Functions](./Functions/04_functions.md)|
@@ -77,7 +77,6 @@
 </div>
 
 
-
 <div>
 <small>Support the <strong>author</strong> to create more educational materials</small> <br />  
 <a href="https://buymeacoffee.com/het81857"> <img src="https://media3.giphy.com/media/ZEB6yFbLnhyQf7g3hn/giphy.gif" alt='Paypal Logo' style="width:30%" height="auto"/> </a>
@@ -89,12 +88,42 @@
     <img src="https://img.shields.io/badge/style--5eba00.svg?label=LinkedIn&logo=linkedin&style=social" alt="LinkedIn" />
   </a><a href="https://github.com/Hunterdii" target="_blank">
     <img src="https://img.shields.io/badge/Follow%20me%20on-GitHub-blue?style=flat-square&logo=github" alt="Follow me on GitHub" />
-</a>
+  </a>
 
-  <sub>Author:
-  <a href="https://www.linkedin.com/in/het-patel-8b110525a/?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" target="_blank">Het Patel</a><br>
-  </sub>
+<sub><h4><i>Author:
+  <a href="https://www.linkedin.com/in/het-patel-8b110525a/?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" target="_blank">Het Patel</a></h4></i>
+<small> October, 2024</small>
+</sub>
+
+<div>
+
+<!--
+---
+
+### 🌍 **International Languages**  
+
+| 🌐 Language  | 🇬🇧 [English](./readMe.md) | 🇪🇸 [Spanish](./Spanish/readme.md) | 🇮🇹 [Italian](./Italian/readMe.md) | 🇷🇺 [Russian](./RU/README.md) | 🇹🇷 [Turkish](./Turkish/readMe.md) | 🇦🇿 [Azerbaijani](./Azerbaijani/readMe.md) | 🇰🇷 [Korean](./Korea/README.md) | 🇻🇳 [Vietnamese](./Vietnamese/README.md) | 🇵🇱 [Polish](./Polish/readMe.md) | 🇧🇷 [Portuguese](./Portuguese/readMe.md) |
+| :----------: | :------------------------: | :--------------------------------: | :-------------------------------: | :----------------------------: | :-------------------------------: | :---------------------------------------: | :----------------------------: | :------------------------------------: | :-----------------------------: | :----------------------------------: |
+
+---
+-->
+<!--
+### 🇮🇳 **Indian Local Languages**
+
+| 🇮🇳 Language  | 🇮🇳 [Hindi](./Hindi/readMe.md) | 🇮🇳 [Gujarati](./Gujarati/readMe.md) | 🇮🇳 [Marathi](./Marathi/readMe.md) | 🇮🇳 [Tamil](./Tamil/readMe.md) | 🇮🇳 [Telugu](./Telugu/readMe.md) | 🇮🇳 [Bengali](./Bengali/readMe.md) |
+| :-----------: | :---------------------------: | :---------------------------------: | :-------------------------------: | :----------------------------: | :------------------------------: | :------------------------------------: |
+
+---
+-->
+
 </div>
+
+</div>
+</div>
+
+
+
+
 
 [Day 2 >>](./Variables%2C%20DataTypes/02_variables_data_types.md)
 
