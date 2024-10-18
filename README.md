@@ -8,8 +8,8 @@
 | 04    | [Functions](./Functions/04_functions.md)|
 | 05    | [Ownership and Borrowing](./Ownership%20and%20Borrowing/05_ownership_and_borrowing.md)|
 | 06    | [Structs](./Structs/06_structs.md)|
-<!--| 07    | [Enums](./07_Day_Enums/07_enums.md)|
-| 08    | [Collections](./08_Day_Collections/08_collections.md)|
+| 07    | [Enums](./Enums/07_enums.md)|
+<!--| 08    | [Collections](./08_Day_Collections/08_collections.md)|
 | 09    | [Error Handling](./09_Day_Error_Handling/09_error_handling.md)|
 | 10    | [Generics](./10_Day_Generics/10_generics.md)|
 | 11    | [Traits](./11_Day_Traits/11_traits.md)|
