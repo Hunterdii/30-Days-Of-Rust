@@ -1,4 +1,3 @@
-
 <div align="center">
 
 [![Contributions Welcome](https://img.shields.io/badge/Contributions-Welcome-brightgreen?style=for-the-badge)](https://github.com/Hunterdii/30-Days-Of-Rust/)

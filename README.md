@@ -3,12 +3,12 @@
 | Day   | Topics                                                    |
 |------ |:---------------------------------------------------------:|
 | 01    | [Introduction to Rust](README.md)|
-| 02    | [Variables, Data Types](./Variables%2C%20DataTypes/02_variables_data_types.md)|
-| 03    | [Control Flow](./Control%20Flow/03_control_flow.md)|
-| 04    | [Functions](./Functions/04_functions.md)|
-| 05    | [Ownership and Borrowing](./Ownership%20and%20Borrowing/05_ownership_and_borrowing.md)|
-| 06    | [Structs](./Structs/06_structs.md)|
-| 07    | [Enums](./Enums/07_enums.md)|
+| 02    | [Variables, Data Types](./02_Variables%2C%20DataTypes/02_variables_data_types.md)|
+| 03    | [Control Flow](./03_Control%20Flow/03_control_flow.md)|
+| 04    | [Functions](./04_Functions/04_functions.md)|
+| 05    | [Ownership and Borrowing](./05_Ownership%20and%20Borrowing/05_ownership_and_borrowing.md)|
+| 06    | [Structs](./06_Structs/06_structs.md)|
+| 07    | [Enums](./07_Enums/07_enums.md)|
 <!--| 08    | [Collections](./08_Day_Collections/08_collections.md)|
 | 09    | [Error Handling](./09_Day_Error_Handling/09_error_handling.md)|
 | 10    | [Generics](./10_Day_Generics/10_generics.md)|
@@ -125,35 +125,11 @@
 
 
 
-[Day 2 >>](./Variables%2C%20DataTypes/02_variables_data_types.md)
+[Day 2 >>](./02_Variables%2C%20DataTypes/02_variables_data_types.md)
 
 
 ![30DaysOfRust](https://github.com/user-attachments/assets/a1083fb3-3eec-4d1e-b93a-fa4d7a99f180)
 
-
-<!--- [🦀 30 Days of Rust](#-30-days-of-rust)
-- [📘 Day 1 - Introduction to Rust](#-day-1---introduction-to-rust)
-  - [Welcome](#welcome)
-  - [Introduction](#introduction)
-  - [Why Rust?](#why-rust)
-  - [Environment Setup](#environment-setup)
-    - [Installing Rust](#installing-rust)
-    - [Installing Visual Studio Code](#installing-visual-studio-code)
-      - [Setting Up Your First Rust Project](#setting-up-your-first-rust-project)
-  - [Understanding Rust Basics](#understanding-rust-basics)
-    - [Rust Syntax](#rust-syntax)
-    - [Variables and Mutability](#variables-and-mutability)
-    - [Data Types](#data-types)
-      - [Integer](#integer)
-      - [Float](#float)
-      - [Boolean](#boolean)
-      - [Character](#character)
-      - [String](#string)
-    - [Control Flow](#control-flow)
-  - [💻 Exercises - Day 1](#-exercises---day-1)
-    - [Exercise: Level 1](#exercise-level-1)
-    - [Exercise: Level 2](#exercise-level-2)
-    - [Exercise: Level 3](#exercise-level-3)-->
 
 - [🦀 30 Days of Rust](#-30-days-of-rust)
 - [📘 Day 1 - Introduction to Rust](#-day-1---introduction-to-rust)
@@ -460,6 +436,6 @@ Thank you for joining **Day 1** of the 30 Days of Rust challenge! If you found t
 🌐 **Website**: [Working On It(Temporary)](https://hunterdii.github.io/Portfolio-Temporary/)
 
 
-[Day 2 >>](./Variables%2C%20DataTypes/02_variables_data_types.md)
+[Day 2 >>](./02_Variables%2C%20DataTypes/02_variables_data_types.md)
 
 ---

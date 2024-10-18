@@ -1,4 +1,4 @@
-[<< Previous](../Enums/07_enums.md) | [Home >>](../README.md#-day-1---introduction-to-rust)
+[<< Previous](../07_Enums/07_enums.md) | [Home >>](../README.md#-day-1---introduction-to-rust)
 
 ## 🚀 Day 8: Coming Soon!
 

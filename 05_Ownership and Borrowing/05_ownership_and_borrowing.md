@@ -6,13 +6,14 @@
     <img src="https://img.shields.io/badge/Follow%20me%20on-GitHub-blue?style=flat-square&logo=github" alt="Follow me on GitHub" />
 </a>
 
-<sub>Author:
-<a href="https://www.linkedin.com/in/het-patel-8b110525a/?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" target="_blank">Het Patel</a><br>
+<sub><h4><i>Author:
+  <a href="https://www.linkedin.com/in/het-patel-8b110525a/?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" target="_blank">Het Patel</a></h4></i>
+<small> October, 2024</small>
 </sub>
 
 </div>
 
-[<< Day 4](../Functions/04_functions.md) | [Day 6 >>](../Structs/06_structs.md)
+[<< Day 4](../04_Functions/04_functions.md) | [Day 6 >>](../06_Structs/06_structs.md)
 
 ![30DaysOfRust](https://github.com/user-attachments/assets/a1083fb3-3eec-4d1e-b93a-fa4d7a99f180)
 
@@ -233,6 +234,6 @@ Thank you for joining **Day 5** of the 30 Days of Rust challenge! If you found t
 🐦 **Twitter**: [@HetPate94938685](https://twitter.com/HetPate94938685)  
 🌐 **Website**: [Working On It(Temporary)](https://hunterdii.github.io/Portfolio-Temporary/)
 
-[<< Day 4](../Functions/04_functions.md) | [Day 6 >>](../Structs/06_structs.md)
+[<< Day 4](../04_Functions/04_functions.md) | [Day 6 >>](../06_Structs/06_structs.md)
 
 ---

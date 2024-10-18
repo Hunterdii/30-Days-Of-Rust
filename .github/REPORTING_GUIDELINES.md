@@ -1,7 +1,3 @@
-
-
-
-
 <div align="center">
   
 ![Issue Reporting](https://img.shields.io/badge/Issue%20Reporting-Open%20to%20All-blue?style=for-the-badge&logo=github)

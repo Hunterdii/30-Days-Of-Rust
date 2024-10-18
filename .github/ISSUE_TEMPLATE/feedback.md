@@ -1,4 +1,3 @@
-
 <div align="center">
 
 [![Feedback](https://img.shields.io/badge/We%20Want-Your%20Feedback-brightgreen?style=for-the-badge)](https://github.com/Hunterdii/30-Days-Of-Rust/issues)

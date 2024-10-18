@@ -13,7 +13,7 @@
 
 </div>
 
-[<< Day 6](../Structs/06_structs.md) | [Day 8 >>](../Collections/08_collections.md)
+[<< Day 6](../06_Structs/06_structs.md) | [Day 8 >>](../08_Collections\08_collections.md)
 
 ![30DaysOfRust](https://github.com/user-attachments/assets/a1083fb3-3eec-4d1e-b93a-fa4d7a99f180)
 
@@ -244,6 +244,6 @@ Thank you for joining **Day 7** of the 30 Days of Rust challenge! If you found t
 🐦 **Twitter**: [@HetPate94938685](https://twitter.com/HetPate94938685)  
 🌐 **Website**: [Working On It(Temporary)](https://hunterdii.github.io/Portfolio-Temporary/)
 
-[<< Day 6](../Structs/06_structs.md) | [Day 8 >>](../Collections/08_collections.md)
+[<< Day 6](../06_Structs/06_structs.md) | [Day 8 >>](../08_Collections/08_collections.md)
 
 ---

@@ -1,6 +1,3 @@
-
-
-
 <div align="center">
   
 [![Community](https://img.shields.io/badge/Community-Welcoming-brightgreen?style=for-the-badge)](https://discord.com/invite/dy4gAhng) 
