@@ -2,7 +2,7 @@
 
 | Day   | Topics                                                    |
 |------ |:---------------------------------------------------------:|
-| 01    | [Introduction to Rust](README.md)|
+| 01    | [Introduction to Rust](README.md#-day-1---introduction-to-rust)|
 | 02    | [Variables, Data Types](./02_Variables%2C%20DataTypes/02_variables_data_types.md)|
 | 03    | [Control Flow](./03_Control%20Flow/03_control_flow.md)|
 | 04    | [Functions](./04_Functions/04_functions.md)|

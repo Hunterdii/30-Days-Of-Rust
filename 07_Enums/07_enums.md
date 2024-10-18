@@ -13,7 +13,7 @@
 
 </div>
 
-[<< Day 6](../06_Structs/06_structs.md) | [Day 8 >>](../08_Collections\08_collections.md)
+[<< Day 6](../06_Structs/06_structs.md) | [Day 8 >>](../08_Collections/08_collections.md)
 
 ![30DaysOfRust](https://github.com/user-attachments/assets/a1083fb3-3eec-4d1e-b93a-fa4d7a99f180)
 
