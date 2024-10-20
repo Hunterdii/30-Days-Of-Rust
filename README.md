@@ -10,8 +10,8 @@
 | 06    | [Structs](./06_Structs/06_structs.md)|
 | 07    | [Enums](./07_Enums/07_enums.md)|
 | 08    | [Collections](./08_Collections/08_collections.md)|
-<!--| 09    | [Error Handling](./09_Day_Error_Handling/09_error_handling.md)|
-| 10    | [Generics](./10_Day_Generics/10_generics.md)|
+| 09    | [Error Handling](./09_Error%20Handling/09_error_handling.md)|
+<!--| 10    | [Generics](./10_Day_Generics/10_generics.md)|
 | 11    | [Traits](./11_Day_Traits/11_traits.md)|
 | 12    | [Modules and Crates](./12_Day_Modules_and_Crates/12_modules_and_crates.md)|
 | 13    | [Testing](./13_Day_Testing/13_testing.md)|
