@@ -67,7 +67,7 @@ Ensure that you have your Rust environment set up correctly from Day 1. If you h
 
 ## 📖 Understanding Generics in Rust
 
-### 📦 Why Use Generics?
+## 📦 Why Use Generics?
 
 Without generics, you'd have to duplicate code for each type you want to support. Generics remove this redundancy by allowing you to write a single function, struct, or enum that can operate on multiple types. Rust's powerful type inference and zero-cost abstractions make using generics highly efficient without adding runtime overhead.
 
@@ -87,7 +87,7 @@ fn main() {
 }
 ```
 
-### 💡 Creating Generic Functions
+## 💡 Creating Generic Functions
 
 Generics make functions more flexible by enabling them to work with different types. Let’s look at an example of a generic function:
 
@@ -113,7 +113,7 @@ fn main() {
 }
 ```
 
-### 🔧 Structs with Generics
+## 🔧 Structs with Generics
 
 Structs can also benefit from generics, allowing you to create data structures that work with different types. Here’s an example of a generic struct:
 
@@ -132,7 +132,7 @@ fn main() {
 }
 ```
 
-### 🔄 Enums with Generics
+## 🔄 Enums with Generics
 
 Enums can also be made generic to handle different types. This is particularly useful when representing optional values or result types:
 
@@ -150,7 +150,7 @@ fn main() {
 ```
 
 
-### ⚙ Generics with Traits
+## ⚙ Generics with Traits
 
 Generics can be constrained by traits to ensure they implement specific behavior. For instance, you can use `Display` to ensure a type can be printed:
 
@@ -178,7 +178,7 @@ fn main() {
 }
 ```
 
-### 📜 Type Constraints and Bounds
+## 📜 Type Constraints and Bounds
 
 When defining generics, you can specify constraints using trait bounds to ensure that the generic type meets certain criteria. For example, a generic function can require that the type implements the `Clone` trait:
 
@@ -188,7 +188,7 @@ fn clone_item<T: Clone>(item: T) -> T {
 }
 ```
 
-### 🌍 Lifetimes with Generics
+## 🌍 Lifetimes with Generics
 
 Lifetimes can be specified with generics to ensure that references are valid for as long as needed. For example:
 
@@ -203,7 +203,7 @@ fn longest<'a>(s1: &'a str, s2: &'a str) -> &'a str {
 ```
 
 
-### 🎯 Hands-On Challenge
+## 🎯 Hands-On Challenge
 
 Create a Rust program that uses generics to perform the following:
 
@@ -247,7 +247,7 @@ fn main() {
 2. Create an enum `Result<T, E>` similar to Rust's standard `Result` to handle success and error scenarios generically.
 3. Implement a trait `Summary` for a struct that provides a summary of the data it holds using generics.
 
-### 🎥 Helpful Video References
+## 🎥 Helpful Video References
 
 - [Generics in Rust Explained](https://www.youtube.com/watch?v=6rcTSxPJ6Bw)
 - [Rust Generics: A Deep Dive](https://www.youtube.com/watch?v=nvur2Ast8hE)
