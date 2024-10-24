@@ -2,6 +2,6 @@
 
 ## 🚀 Day 14: Coming Soon!
 
-🕒 We're gearing up for an exciting Day 13! Stay tuned as we explore **Cargo and Package Management** tomorrow, bringing you deeper insights and hands-on exercises. 🔧✨
+🕒 We're gearing up for an exciting Day 14! Stay tuned as we explore **Cargo and Package Management** tomorrow, bringing you deeper insights and hands-on exercises. 🔧✨
 
 🔔 **Update Alert**: Be sure to check back tomorrow for the full content release! Until then, revisit the previous days to sharpen your Rust skills. 
