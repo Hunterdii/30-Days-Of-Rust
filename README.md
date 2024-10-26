@@ -16,8 +16,8 @@
 | 12    | [Modules and Crates](./12_Modules%20and%20Crates/12_modules_and_crates.md)|
 | 13    | [Testing](./13_Testing/13_testing.md)|
 | 14    | [Cargo and Package Management](./14_Cargo%20and%20Package%20Management/14_cargo_and_package_management.md)|
-<!--| 15    | [Macros](./15_Day_Macros/15_macros.md)|
-| 16    | [File Handling](./16_Day_File_Handling/16_file_handling.md)|
+| 15    | [Macros](./15_Macros/15_macros.md)|
+<!--| 16    | [File Handling](./16_Day_File_Handling/16_file_handling.md)|
 | 17    | [Concurrency](./17_Day_Concurrency/17_concurrency.md)|
 | 18    | [Asynchronous Programming](./18_Day_Asynchronous_Programming/18_asynchronous_programming.md)|
 | 19    | [Networking](./19_Day_Networking/19_networking.md)|
