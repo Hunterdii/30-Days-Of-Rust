@@ -43,24 +43,29 @@
   <img src="https://img.shields.io/github/contributors/Hunterdii/30-Days-Of-Rust" alt="GitHub Contributors"/>
   <img src="https://img.shields.io/github/last-commit/Hunterdii/30-Days-Of-Rust?display_timestamp=author&style=flat&logo=30-Days-Of-Rust&logoColor=%23F74C00&logoSize=auto&label=30%20Days%20Of%20Rust&labelColor=Lavender&color=%239b59b6&cacheSeconds=200" alt="Last Commit"/>
   <img src="https://img.shields.io/badge/Owner-%40Huntedii-<COLOR>.svg" alt="Owner Badge"/>
+  
 <!--   <img src="https://img.shields.io/github/stars/Hunterdii/30-Days-Of-Rust?style=social" alt="GitHub Stars"/>-->
 </p> 
 
+
+
 # Github Stats:
 
+![Progress](https://img.shields.io/badge/Progress%20till-15%20Days-orange) ![Status](https://img.shields.io/badge/Status-Temporarily_Paused-yellow)
+![Sorry for the Inconvenience](https://img.shields.io/badge/Sorry%20for%20the%20Inconvenience-💖%20Heartfelt%20Apologies%20💖-pink?style=for-the-badge)
 
 
-<div align = "center">
+<div align="center">
 
 <table align="center">
     <thead align="center">
-        <tr border: 1px;>
+        <tr>
             <td><b>🌟 Stars</b></td>
             <td><b>🍴 Forks</b></td>
             <td><b>🐛 Issues</b></td>
             <td><b>📏 Repo Size</b></td>
             <td><b>🔔 Open PRs</b></td>
-            <td><b>🔕 Close PRs</b></td>
+            <td><b>🔕 Closed PRs</b></td>
         </tr>
      </thead>
     <tbody>
@@ -70,11 +75,12 @@
             <td><img alt="Issues" src="https://img.shields.io/github/issues/Hunterdii/30-Days-Of-Rust?style=flat&logo=github"/></td>
             <td><img alt="Repo Size" src="https://img.shields.io/github/repo-size/Hunterdii/30-Days-Of-Rust?style=flat&logo=github"/></td>
             <td><img alt="Open Pull Requests" src="https://img.shields.io/github/issues-pr/Hunterdii/30-Days-Of-Rust?style=flat&logo=github"/></td>
-           <td><img alt="Close Pull Requests" src="https://img.shields.io/github/issues-pr-closed/Hunterdii/30-Days-Of-Rust?style=flat&color=critical&logo=github"/></td>
+            <td><img alt="Closed Pull Requests" src="https://img.shields.io/github/issues-pr-closed/Hunterdii/30-Days-Of-Rust?style=flat&color=critical&logo=github"/></td>
         </tr>
     </tbody>
 </table>
 </div>
+
 
 
 <div>
