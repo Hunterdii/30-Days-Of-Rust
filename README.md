@@ -17,8 +17,8 @@
 | 13    | [Testing](./13_Testing/13_testing.md)|
 | 14    | [Cargo and Package Management](./14_Cargo%20and%20Package%20Management/14_cargo_and_package_management.md)|
 | 15    | [Macros](./15_Macros/15_macros.md)|
-<!--| 16    | [File Handling](./16_Day_File_Handling/16_file_handling.md)|
-| 17    | [Concurrency](./17_Day_Concurrency/17_concurrency.md)|
+| 16    | [File Handling](./16_File%20Handling/16_file_handling.md)|
+<!--| 17    | [Concurrency](./17_Day_Concurrency/17_concurrency.md)|
 | 18    | [Asynchronous Programming](./18_Day_Asynchronous_Programming/18_asynchronous_programming.md)|
 | 19    | [Networking](./19_Day_Networking/19_networking.md)|
 | 20    | [Unsafe Rust](./20_Day_Unsafe_Rust/20_unsafe_rust.md)|
@@ -51,9 +51,8 @@
 
 # Github Stats:
 
-![Progress](https://img.shields.io/badge/Progress%20till-15%20Days-orange) ![Status](https://img.shields.io/badge/Status-Temporarily_Paused-yellow)
-![Sorry for the Inconvenience](https://img.shields.io/badge/Sorry%20for%20the%20Inconvenience-💖%20Heartfelt%20Apologies%20💖-pink?style=for-the-badge)
-
+<!--![Progress](https://img.shields.io/badge/Progress%20till-15%20Days-orange) ![Status](https://img.shields.io/badge/Status-Temporarily_Paused-yellow)
+![Sorry for the Inconvenience](https://img.shields.io/badge/Sorry%20for%20the%20Inconvenience-💖%20Heartfelt%20Apologies%20💖-pink?style=for-the-badge)-->
 
 <div align="center">
 
