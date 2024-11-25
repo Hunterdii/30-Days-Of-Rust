@@ -290,7 +290,7 @@ fn main() {
 
 
 
-### 📊 Parallel Iterators with Rayon  
+## 📊 Parallel Iterators with Rayon  
 
 `Rayon` provides easy parallelism with iterators:  
 
@@ -306,7 +306,7 @@ fn main() {
 
 
 
-### 🔑 Choosing Your Guarantees: Cell, RefCell, Mutex  
+## 🔑 Choosing Your Guarantees: Cell, RefCell, Mutex  
 
 | Type      | Use Case                              | Thread-Safe | Notes                          |  
 |-----------|---------------------------------------|-------------|--------------------------------|  
@@ -434,7 +434,7 @@ Stay tuned for **Day 18**, where we will explore **Asynchronous Programming in R
 
 🌟 _Great job on completing Day 17! Keep practicing, and get ready for Day 18!_
 
-Thank you for joining **Day 17** of the 30 Days of Rust challenge! If you found this helpful, don’t forget to ⭐ star this repository, share it with your friends, and stay tuned for more exciting lessons ahead!
+Thank you for joining **Day 17** of the 30 Days of Rust challenge! If you found this helpful, don’t forget to <img src="https://github.com/user-attachments/assets/35f6838c-52f5-4e48-8a98-c5203f8c57e3" style="width:20px; color: #FFD700" alt="Star GIF"> star this repository, share it with your friends, and stay tuned for more exciting lessons ahead!
 
 **Stay Connected**  
 📧 **Email**: [Hunterdii](mailto:hunterdii9879@gmail.com)  

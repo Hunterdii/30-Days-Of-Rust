@@ -378,6 +378,9 @@ Tomorrow, we’ll dive deeper into **Advanced Cargo Features**. Stay tuned for *
 
 🌟 _Great job on completing Day 14! Don’t forget to share your projects and engage with the Rust community._
 
+Thank you for joining **Day 14** of the 30 Days of Rust challenge! If you found this helpful, don’t forget to <img src="https://github.com/user-attachments/assets/35f6838c-52f5-4e48-8a98-c5203f8c57e3" style="width:20px; color: #FFD700" alt="Star GIF"> star this repository, share it with your friends, and stay tuned for more exciting lessons ahead!
+
+
 **Stay Connected**  
 📧 **Email**: [Hunterdii](mailto:hunterdii9879@gmail.com)  
 🐦 **Twitter**: [@HetPate94938685](https://twitter.com/HetPate94938685)  

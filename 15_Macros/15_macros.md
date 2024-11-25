@@ -370,7 +370,7 @@ Stay tuned for **Day 16**, where we will explore **File Handling** in Rust! 🚀
 
 🌟 _Great job on completing Day 15! Keep practicing, and get ready for Day 16 where we will explore **File Handling** in Rust!_
 
-Thank you for joining **Day 15** of the 30 Days of Rust challenge! If you found this helpful, don’t forget to ⭐ star this repository, share it with your friends, and stay tuned for more exciting lessons ahead!
+Thank you for joining **Day 15** of the 30 Days of Rust challenge! If you found this helpful, don’t forget to <img src="https://github.com/user-attachments/assets/35f6838c-52f5-4e48-8a98-c5203f8c57e3" style="width:20px; color: #FFD700" alt="Star GIF"> star this repository, share it with your friends, and stay tuned for more exciting lessons ahead!
 
 **Stay Connected**  
 📧 **Email**: [Hunterdii](mailto:hunterdii9879@gmail.com)  
