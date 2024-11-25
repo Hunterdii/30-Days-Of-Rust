@@ -35,6 +35,7 @@
     - [🎥 Helpful Video References](#-helpful-video-references)
   - [📝 Day 3 Summary](#-day-3-summary)
 
+---
 
 # 📘 Day 3 - Control Flow
 

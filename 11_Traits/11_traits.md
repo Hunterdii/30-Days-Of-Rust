@@ -36,6 +36,8 @@
     - [🎥 Helpful Video References](#-helpful-video-references)
   - [📝 Day 11 Summary](#-day-11-summary)
 
+---
+
 # 📘 Day 11 - Traits in Rust
 
 ## 👋 Welcome

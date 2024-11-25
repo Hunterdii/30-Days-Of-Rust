@@ -39,6 +39,8 @@
   - [🎥 Helpful Video References](#-helpful-video-references)
   - [📝 Day 15 Summary](#-day-15-summary)
 
+---
+
 # 📘 Day 15 - Macros in Rust
 
 ## 👋 Welcome

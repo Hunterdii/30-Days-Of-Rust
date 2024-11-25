@@ -35,7 +35,7 @@
     - [🎥 Helpful Video References](#-helpful-video-references)
   - [📝 Day 5 Summary](#-day-5-summary)
 
-<br/>
+---
 
 # 📘 Day 5 - Ownership & Borrowing
 

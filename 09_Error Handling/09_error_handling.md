@@ -39,6 +39,7 @@
     - [🎥 Helpful Video References](#-helpful-video-references)
   - [📝 Day 9 Summary](#-day-9-summary)
 
+---
 
 # 📘 Day 9 - Error Handling
 

@@ -40,6 +40,8 @@
   - [🎥 Helpful Video References](#-helpful-video-references)
   - [📝 Day 14 Summary](#-day-14-summary)
 
+---
+
 # 📘 Day 14 - Cargo and Package Management
 
 ## 👋 Welcome

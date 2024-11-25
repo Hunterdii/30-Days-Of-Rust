@@ -35,6 +35,8 @@
     - [🎥 Helpful Video References](#-helpful-video-references)
   - [📝 Day 12 Summary](#-day-12-summary)
 
+---
+
 # 📘 Day 12 - Modules and Crates
 
 ## 👋 Welcome

@@ -36,7 +36,7 @@
   - [🎥 Helpful Video References](#-helpful-video-references)
   - [📝 Day 16 Summary](#-day-16-summary)
 
-
+---
 
 # 📘 Day 16 - File Handling in Rust
 

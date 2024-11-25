@@ -37,6 +37,8 @@
     - [🎥 Helpful Video References](#-helpful-video-references)
   - [📝 Day 10 Summary](#-day-10-summary)
 
+---
+
 # 📘 Day 10 - Generics
 
 ## 👋 Welcome

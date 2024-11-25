@@ -35,7 +35,7 @@
     - [🎥 Helpful Video References](#-helpful-video-references)
   - [📝 Day 4 Summary](#-day-4-summary)
 
-<br/>
+---
 
 # 📘 Day 4 - Functions
 

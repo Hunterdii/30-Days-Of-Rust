@@ -43,6 +43,8 @@
   - [🎥 Helpful Video References](#-helpful-video-references)  
   - [📝 Day 17 Summary](#-day-17-summary)  
 
+---
+
 # 📘 Day 17 - Concurrency in Rust
 
 ## 👋 Welcome  

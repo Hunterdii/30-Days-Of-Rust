@@ -39,6 +39,7 @@
     - [🎥 Helpful Video References](#-helpful-video-references)
   - [📝 Day 2 Summary](#-day-2-summary)
 
+---
 
 # 📘 Day 2 - Variables and Data Types
 

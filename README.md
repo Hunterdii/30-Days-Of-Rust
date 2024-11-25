@@ -432,7 +432,7 @@ In this example, `///` describes the `Point` struct and the `new` method. The `/
 
 🌕 Great job! You have completed Day 1 of the _30 Days of Rust_ challenge! Keep practicing, and get ready for Day 2 where you'll dive deeper into Rust basics.
 
-Thank you for joining **Day 1** of the 30 Days of Rust challenge! If you found this helpful, don’t forget to ⭐ star this repository, share it with your friends, and stay tuned for more exciting lessons ahead!
+Thank you for joining **Day 1** of the 30 Days of Rust challenge! If you found this helpful, don’t forget to <img src="https://github.com/user-attachments/assets/35f6838c-52f5-4e48-8a98-c5203f8c57e3" style="width:20px; color: #FFD700" alt="Star GIF"> star this repository, share it with your friends, and stay tuned for more exciting lessons ahead!
 
 
 **Stay Connected**  

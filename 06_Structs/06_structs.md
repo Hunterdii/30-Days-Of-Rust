@@ -37,7 +37,7 @@
     - [🎥 Helpful Video References](#-helpful-video-references)
   - [📝 Day 6 Summary](#-day-6-summary)
 
-<br/>
+---
 
 # 📘 Day 6 - Structs
 

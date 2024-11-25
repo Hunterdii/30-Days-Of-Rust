@@ -62,7 +62,7 @@ Ensure that you have your Rust environment set up correctly from Day 1. If you h
 
 ## 📖 Understanding Enums
 
-### 📦 Declaring Enums
+## 📦 Declaring Enums
 
 Enums in Rust are declared using the `enum` keyword, and they allow us to define a type that can be one of a few different variants.
 
@@ -87,7 +87,7 @@ fn main() {
 }
 ```
 
-### 🔄 Using Enums with `match`
+## 🔄 Using Enums with `match`
 
 The `match` statement is a powerful control flow construct that helps to match different enum variants.
 
@@ -114,7 +114,7 @@ fn main() {
 }
 ```
 
-### 📚 Methods on Enums
+## 📚 Methods on Enums
 
 Enums can also have methods defined on them, similar to structs.
 
@@ -144,7 +144,7 @@ fn main() {
 }
 ```
 
-### 🔗 Enums with Data
+## 🔗 Enums with Data
 
 Enums can also hold data, which makes them very versatile.
 
@@ -165,7 +165,7 @@ fn main() {
 }
 ```
 
-### 🎯 Hands-On Challenge
+## 🎯 Hands-On Challenge
 
 Create a Rust program that defines an enum representing a payment method: `CreditCard`, `DebitCard`, `Cash`, and `PayPal`. Write a function to print the payment method used.
 

@@ -35,6 +35,8 @@
   - [🎥 Helpful Video References](#-helpful-video-references)
   - [📝 Day 13 Summary](#-day-13-summary)
 
+---
+
 # 📘 Day 13 - Testing in Rust
 
 ## 👋 Welcome
