@@ -19,8 +19,8 @@
 | 15    | [Macros](./15_Macros/15_macros.md)|
 | 16    | [File Handling](./16_File%20Handling/16_file_handling.md)|
 | 17    | [Concurrency](./17_Concurrency/17_concurrency.md)|
-<!--| 18    | [Asynchronous Programming](./18_Day_Asynchronous_Programming/18_asynchronous_programming.md)|
-| 19    | [Networking](./19_Day_Networking/19_networking.md)|
+| 18    | [Asynchronous Programming](./18_Asynchronous%20Programming/18_asynchronous_programming.md)|
+<!--| 19    | [Networking](./19_Day_Networking/19_networking.md)|
 | 20    | [Unsafe Rust](./20_Day_Unsafe_Rust/20_unsafe_rust.md)|
 | 21    | [Rust Lifetimes](./21_Day_Rust_Lifetimes/21_rust_lifetimes.md)|
 | 22    | [Building CLI Applications](./22_Day_Building_CLI_Applications/22_building_cli_applications.md)|
