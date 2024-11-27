@@ -1,5 +1,5 @@
 <div align="center">
-  <h1>🦀 30 Days of Rust: Day 18 - Networking in Rust 🌐 </h1>
+  <h1>🦀 30 Days of Rust: Day 19 - Networking in Rust 🌐 </h1>
   <a href="https://www.linkedin.com/in/het-patel-8b110525a/?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" target="_blank">
     <img src="https://img.shields.io/badge/style--5eba00.svg?label=LinkedIn&logo=linkedin&style=social" alt="LinkedIn" />
   </a><a href="https://github.com/Hunterdii" target="_blank">
@@ -12,7 +12,6 @@
 </sub>
 
 </div>
-
 
 [<< Day 18](../18_Asynchronous%20Programming/18_asynchronous_programming.md) | [Day 20 >>](../20_Unsafe%20Rust/20_unsafe_rust.md)  
 
@@ -32,6 +31,8 @@
   - [💻 Exercises - Day 19](#-exercises---day-19)
     - [✅ Exercise: Level 1](#-exercise-level-1)
     - [🚀 Exercise: Level 2](#-exercise-level-2)
+  - [🎥 Additional Resources](#-additional-resources)
+  - [📚 More Insights](#-more-insights)
   - [📝 Day 19 Summary](#-day-19-summary)  
 
 ---
@@ -558,6 +559,93 @@ Using the `tokio` crate, build an async TCP server and client:
 4. **Multicast Communication**:
    - Implement a simple multicast communication using UDP where one sender broadcasts a message to multiple receivers.
 
+## 🎥 Additional Resources
+- [Rust Networking with Tokio (Official Guide)](https://youtube.com/playlist?list=PL5E0b3rgRMdpDBdw56w7tNSZgVt2dysNF&si=CV0_gCJLfYu7NbZU)
+- [Rust Async Book](https://www.youtube.com/watch?v=wBQ8KlX7glY)
+- [Real-World Rust Networking Applications](https://youtube.com/playlist?list=PLrOQsSoS-V69jo82lPCIj8a1HLrmQLK2V&si=Aq5_-9n4a5eTRoc8)
+
+## 📚 More Insights
+
+| **Feature**               | **Synchronous Networking**          | **Asynchronous Networking**         | **Multithreading**                 |  
+|---------------------------|-------------------------------------|-------------------------------------|------------------------------------|  
+| **Performance**           | Blocks on I/O, can be slow for high concurrency | Efficient handling of many connections | High for CPU-bound tasks           |  
+| **Best for**              | Simple use cases, low traffic       | High concurrency, I/O-bound tasks   | CPU-intensive tasks                |  
+| **Complexity**            | Easier to write and debug           | Higher, requires async runtime      | Race conditions, manual safety     |  
+| **Concurrency Handling**  | Single-threaded blocking I/O        | Non-blocking, event-driven          | Multi-threaded                     |  
+| **Libraries/Crates**      | `std::net`                          | `tokio`, `async-std`, `hyper`       | `std::thread`, `rayon`             |  
+| **Scalability**           | Limited by threads or processes     | Scales well with async runtimes     | Limited by thread count            |  
+| **Example Use Cases**     | Simple TCP/UDP servers              | Web servers, chat applications      | Parallel data processing            |  
+| **Ease of Learning**      | Beginner-friendly                   | Intermediate to advanced            | Intermediate, with sync primitives |  
+| **Error Handling**        | Straightforward but runtime errors possible | Compile-time safety with `Future`  | Runtime errors and potential panics|  
+
+### **1. Protocol Support**  
+Rust's ecosystem supports various networking protocols through external crates:  
+- **HTTP/HTTPS**: Use `reqwest`, `hyper`, or `surf` for building HTTP clients and servers.  
+- **WebSocket**: Use `tungstenite` or `async-tungstenite` for WebSocket communication.  
+- **FTP/SMTP**: Use crates like `rftp` for FTP and `lettre` for SMTP.  
+- **DNS**: Use `trust-dns` for DNS querying and server implementation.  
+
+
+### **2. Secure Networking**  
+Rust provides tools to handle secure communication:  
+- **TLS/SSL**: Use `native-tls` or `rustls` for encrypted connections.  
+- **Certificate Management**: Manage X.509 certificates for secure communication.  
+- **End-to-End Encryption**: Implement custom encryption with `ring` or `openssl` crates.  
+
+
+### **3. Networking with Async Frameworks**  
+Async programming in Rust is powered by runtime libraries:  
+- **Tokio**: A high-performance async runtime for building scalable network applications.  
+- **Async-std**: An alternative async runtime with simpler APIs for lightweight tasks.  
+- **Actix**: A powerful actor-based framework for building concurrent web applications.  
+
+
+### **4. UDP Communication**  
+- **Unreliable Messaging**: Send and receive datagrams without maintaining a connection.  
+- **Real-Time Applications**: Use UDP for low-latency applications like gaming or streaming.  
+- **Example Crate**: `std::net::UdpSocket` provides basic support for UDP.  
+
+
+### **5. Web Frameworks**  
+- **Rocket**: A high-level framework for building web APIs.  
+- **Warp**: A composable, flexible, and performant web framework.  
+- **Axum**: Built on top of `tokio` and `hyper`, focusing on ergonomic APIs.  
+
+### **6. Low-Level Networking**  
+For more control over networking:  
+- **Raw Sockets**: Use `socket2` crate for creating and handling raw sockets.  
+- **Packet Crafting**: Use `pnet` to create custom network packets.  
+- **Networking System Calls**: Use `nix` crate to interact with OS-level networking.  
+
+### **7. Performance Optimization**  
+- **Load Balancing**: Use tools like `haproxy` in combination with Rust servers.  
+- **Connection Pooling**: Manage resource usage with libraries like `r2d2`.  
+- **Caching**: Use crates like `cached` or `moka` to implement in-memory caches.  
+
+
+### **8. Testing and Debugging**  
+- **Mocking Servers**: Use crates like `mockito` to create mock HTTP servers for testing.  
+- **Network Inspection**: Analyze traffic with tools like Wireshark or Tcpdump.  
+- **Logging**: Use `env_logger` or `tracing` for detailed runtime logs.  
+
+
+### **9. Real-Time Applications**  
+Rust's concurrency model and async libraries make it suitable for:  
+- **Chat Applications**: Build with WebSockets or TCP streams.  
+- **Video Streaming**: Use crates like `gstreamer` for handling multimedia data.  
+- **IoT Devices**: Build lightweight networking stacks with embedded-friendly crates like `smoltcp`.  
+
+
+### **10. Common Crates**  
+| **Crate**      | **Description**                                           |  
+|-----------------|-----------------------------------------------------------|  
+| `tokio`         | Async runtime for network programming.                    |  
+| `hyper`         | HTTP library for client and server.                       |  
+| `reqwest`       | HTTP client with an easy-to-use API.                      |  
+| `actix-web`     | Web framework for building REST APIs and microservices.   |  
+| `tungstenite`   | WebSocket library for both sync and async usage.          |  
+| `trust-dns`     | DNS client and server library.                            |  
+| `rustls`        | Modern TLS implementation for secure connections.         |  
 
 
 ## 📝 Day 19 Summary  
