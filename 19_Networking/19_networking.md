@@ -665,6 +665,10 @@ Stay tuned for **Day 20**, where we will explore **Unsafe Rust in Rust** in Rust
 
 Thank you for joining **Day 19** of the 30 Days of Rust challenge! If you found this helpful, don’t forget to <img src="https://github.com/user-attachments/assets/35f6838c-52f5-4e48-8a98-c5203f8c57e3" style="width:20px; color: #FFD700" alt="Star GIF"> star this repository, share it with your friends, and stay tuned for more exciting lessons ahead!
 
+**Stay Connected**  
+📧 **Email**: [Hunterdii](mailto:hunterdii9879@gmail.com)  
+🐦 **Twitter**: [@HetPate94938685](https://twitter.com/HetPate94938685)  
+🌐 **Website**: [Working On It(Temporary)](https://hunterdii.github.io/Portfolio-Temporary/)
 
 [<< Day 18](../18_Asynchronous%20Programming/18_asynchronous_programming.md) | [Day 20 >>](../20_Unsafe%20Rust/20_unsafe_rust.md)  
 
