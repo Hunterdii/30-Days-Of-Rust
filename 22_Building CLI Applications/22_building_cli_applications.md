@@ -1,5 +1,5 @@
 <div align="center">
-  <h1>🦀 30 Days of Rust: Day 21 - Building CLI Applications 🛠️</h1>
+  <h1>🦀 30 Days of Rust: Day 22 - Building CLI Applications 🛠️</h1>
   <a href="https://www.linkedin.com/in/het-patel-8b110525a/?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" target="_blank">
     <img src="https://img.shields.io/badge/style--5eba00.svg?label=LinkedIn&logo=linkedin&style=social" alt="LinkedIn" />
   </a><a href="https://github.com/Hunterdii" target="_blank">
@@ -57,6 +57,7 @@
   - [📝 Day 22 Summary](#-day-22-summary)
 
 
+---
 
 
 # 📘 Day 22 - Building CLI Applications
