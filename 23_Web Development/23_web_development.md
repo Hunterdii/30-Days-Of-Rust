@@ -1053,6 +1053,6 @@ Thank you for joining **Day 23** of the 30 Days of Rust challenge! If you found 
 🐦 **Twitter**: [@HetPate94938685](https://twitter.com/HetPate94938685)  
 🌐 **Website**: [Working On It(Temporary)](https://hunterdii.github.io/Portfolio-Temporary/)
 
-[<< Day 22](../22_Day_Building_CLI_Applications/22_building_cli_applications.md) | [Day 24 >>](../24_Day_Integrating_with_C_C++/24_integrating_with_c_c++.md)  
+[<< Day 22](../22_Building%20CLI%20Applications/22_building_cli_applications.md) | [Day 24 >>](../24_Integrating_with_C_C%2B%2B/24_integrating_with_c_c%2B%2B.md)  
 
 ---
