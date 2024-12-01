@@ -24,8 +24,8 @@
 | 20    | [Unsafe Rust](./20_Unsafe%20Rust/20_unsafe_rust.md)|
 | 21    | [Rust Lifetimes](./21_Rust%20Lifetimes/21_rust_lifetimes.md)|
 | 22    | [Building CLI Applications](./22_Building%20CLI%20Applications/22_building_cli_applications.md)|
-<!--| 23    | [Web Development with Rust](./23_Day_Web_Development/23_web_development.md)|
-| 24    | [Integrating with C/C++](./24_Day_Integrating_with_C_C++/24_integrating_with_c_c++.md)|
+| 23    | [Web Development with Rust](./23_Web%20Development/23_web_development.md)|
+<!--| 24    | [Integrating with C/C++](./24_Day_Integrating_with_C_C++/24_integrating_with_c_c++.md)|
 | 25    | [Rust on Embedded Systems](./25_Day_Embedded_Systems/25_embedded_systems.md)|
 | 26    | [Rust and WebAssembly](./26_Day_WebAssembly/26_webassembly.md)|
 | 27    | [Graphics Programming with Rust](./27_Day_Graphics_Programming/27_graphics_programming.md)|
