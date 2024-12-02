@@ -2,39 +2,43 @@ name: Update Progress Badge
 
 on:
   push:
-    paths:
-      - progress.json
-      - README.md
+    branches:
+      - main
+  schedule:
+    - cron: '0 22 * * *'  # Optional: Set a daily schedule for updates
+  workflow_dispatch:  # Manual trigger option
 
 jobs:
-  update-progress:
+  update-progress-badge:
     runs-on: ubuntu-latest
 
     steps:
-    - name: Checkout Repository
-      uses: actions/checkout@v2
+    - uses: actions/checkout@v4
 
-    - name: Read Progress Data
-      id: progress
+    - name: Set up Python
+      uses: actions/setup-python@v5
+      with:
+        python-version: 3.8
+
+    - name: Install dependencies
       run: |
-        # Read total and completed days from the JSON file
-        total_days=$(jq '.total_days' progress.json)
-        completed_days=$(jq '.completed_days' progress.json)
+        pip install requests  # You can add any other dependencies you need
 
-        # Calculate percentage
-        percentage=$((completed_days * 100 / total_days))
-        echo "progress=$percentage" >> $GITHUB_ENV
-
-    - name: Update README with Progress Badge
+    - name: Calculate Progress and Update README
       run: |
-        # Update README with the progress badge
-        badge_url="![Progress Badge](https://img.shields.io/static/v1?label=Challenge&message=${{ env.progress }}%25%20Complete&color=brightgreen&style=flat-square)"
-        sed -i "s|<progress-placeholder>|$badge_url|g" README.md
+        python src/calculate_progress.py ${{ github.repository_owner }} ${{ secrets.GITHUB_TOKEN }} README.md
 
-    - name: Commit Changes
+    - name: Commit changes
       run: |
         git config --local user.email "github-actions[bot]@users.noreply.github.com"
         git config --local user.name "GitHub Actions"
         git add README.md
-        git commit -m "Update progress badge"
-        git push
+        git diff-index --quiet HEAD || git commit -m "Update progress badge"
+
+    - name: Pull changes
+      run: git pull -r
+
+    - name: Push changes
+      uses: ad-m/github-push-action@d91a481090679876dfc4178fef17f286781251df
+      with:
+        github_token: ${{ secrets.GITHUB_TOKEN }}
