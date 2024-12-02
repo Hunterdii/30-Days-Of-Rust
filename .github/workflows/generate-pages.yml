@@ -13,17 +13,22 @@ jobs:
     - name: Checkout Repository
       uses: actions/checkout@v2
 
+    - name: Install Pandoc
+      run: |
+        sudo apt-get update
+        sudo apt-get install pandoc
+
+    - name: Check if README.md exists
+      run: ls -l README.md
+
     - name: Build Documentation
       run: |
-        # Check if README.md exists
-        ls -l README.md
-        # Build Markdown to HTML for GitHub Pages
         pandoc -s README.md -o docs/index.html --verbose
-        
+
     - name: Commit Documentation
       run: |
         git config --local user.email "github-actions[bot]@users.noreply.github.com"
         git config --local user.name "GitHub Actions"
-        git add docs/
-        git commit -m "Generate HTML documentation for GitHub Pages"
+        git add docs/index.html
+        git commit -m "Generate HTML documentation"
         git push
