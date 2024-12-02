@@ -149,9 +149,6 @@
 </div>
 
 
-
-
-
 [Day 2 >>](./02_Variables%2C%20DataTypes/02_variables_data_types.md)
 
 
