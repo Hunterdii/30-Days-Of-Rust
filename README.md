@@ -1,37 +1,65 @@
-# 🦀 30 Days of Rust
+# 🦀 **30 Days of Rust**  
 
-| Day   | Topics                                                    |
-|------ |:---------------------------------------------------------:|
-| 01    | [Introduction to Rust](README.md#-day-1---introduction-to-rust)|
-| 02    | [Variables, Data Types](./02_Variables%2C%20DataTypes/02_variables_data_types.md)|
-| 03    | [Control Flow](./03_Control%20Flow/03_control_flow.md)|
-| 04    | [Functions](./04_Functions/04_functions.md)|
-| 05    | [Ownership and Borrowing](./05_Ownership%20and%20Borrowing/05_ownership_and_borrowing.md)|
-| 06    | [Structs](./06_Structs/06_structs.md)|
-| 07    | [Enums](./07_Enums/07_enums.md)|
-| 08    | [Collections](./08_Collections/08_collections.md)|
-| 09    | [Error Handling](./09_Error%20Handling/09_error_handling.md)|
-| 10    | [Generics](./10_Generics/10_generics.md)|
-| 11    | [Traits](./11_Traits/11_traits.md)|
-| 12    | [Modules and Crates](./12_Modules%20and%20Crates/12_modules_and_crates.md)|
-| 13    | [Testing](./13_Testing/13_testing.md)|
-| 14    | [Cargo and Package Management](./14_Cargo%20and%20Package%20Management/14_cargo_and_package_management.md)|
-| 15    | [Macros](./15_Macros/15_macros.md)|
-| 16    | [File Handling](./16_File%20Handling/16_file_handling.md)|
-| 17    | [Concurrency](./17_Concurrency/17_concurrency.md)|
-| 18    | [Asynchronous Programming](./18_Asynchronous%20Programming/18_asynchronous_programming.md)|
-| 19    | [Networking](./19_Networking/19_networking.md)|
-| 20    | [Unsafe Rust](./20_Unsafe%20Rust/20_unsafe_rust.md)|
-| 21    | [Rust Lifetimes](./21_Rust%20Lifetimes/21_rust_lifetimes.md)|
-| 22    | [Building CLI Applications](./22_Building%20CLI%20Applications/22_building_cli_applications.md)|
-| 23    | [Web Development with Rust](./23_Web%20Development/23_web_development.md)|
-| 24    | [Integrating with C/C++](./24_Integrating_with_C_C%2B%2B/24_integrating_with_c_c%2B%2B.md)|
-<!--| 25    | [Rust on Embedded Systems](./25_Day_Embedded_Systems/25_embedded_systems.md)|
-| 26    | [Rust and WebAssembly](./26_Day_WebAssembly/26_webassembly.md)|
-| 27    | [Graphics Programming with Rust](./27_Day_Graphics_Programming/27_graphics_programming.md)|
-| 28    | [Game Development with Rust](./28_Day_Game_Development/28_game_development.md)|
-| 29    | [Rust and Machine Learning](./29_Day_Machine_Learning/29_machine_learning.md)|
-| 30    | [Project Wrap-Up & Advanced Concepts](./30_Day_Project_Wrap-Up/30_project_wrap_up.md)|-->
+
+Progress: <progress-placeholder>
+
+
+
+
+
+<!--# 🦀 **30 Days of Rust**  
+✨ *Learn Rust step by step in just 30 days! Each topic builds upon the last to take you from beginner to Rustacean pro!*  
+
+
+### 🏆 **Progress Tracker**  
+📈 **Your Progress:** 80% Complete  
+```
+█████████████████████████░░░░░░░░
+```
+
+![Progress Badge](https://img.shields.io/static/v1?label=Challenge&message=80%25%20Complete&color=brightgreen&style=flat-square)-->
+
+
+
+
+
+| 🌟 **Day**   | 📝 **Topics**                                                   |
+|------ |:-----------------------------------------------------------:|
+| **01**     | [🦀 **Introduction to Rust**](README.md#-day-1---introduction-to-rust)|
+| **02**     | [🔢 **Variables, Data Types**](./02_Variables%2C%20DataTypes/02_variables_data_types.md)|
+| **03**     | [🔄 **Control Flow**](./03_Control%20Flow/03_control_flow.md)|
+| **04**     | [🛠️ **Functions**](./04_Functions/04_functions.md)|
+| **05**     | [⚖️ **Ownership and Borrowing**](./05_Ownership%20and%20Borrowing/05_ownership_and_borrowing.md)|
+| **06**     | [🏗️ **Structs**](./06_Structs/06_structs.md)|
+| **07**     | [📊 **Enums**](./07_Enums/07_enums.md)|
+| **08**     | [🧳 **Collections**](./08_Collections/08_collections.md)|
+| **09**     | [💥 **Error Handling**](./09_Error%20Handling/09_error_handling.md)|
+| **10**     | [🧩 **Generics**](./10_Generics/10_generics.md)|
+| **11**     | [🔧 **Traits**](./11_Traits/11_traits.md)|
+| **12**     | [📦 **Modules and Crates**](./12_Modules%20and%20Crates/12_modules_and_crates.md)|
+| **13**     | [🔍 **Testing**](./13_Testing/13_testing.md)|
+| **14**     | [📦 **Cargo and Package Management**](./14_Cargo%20and%20Package%20Management/14_cargo_and_package_management.md)|
+| **15**     | [⚡ **Macros**](./15_Macros/15_macros.md)|
+| **16**     | [📂 **File Handling**](./16_File%20Handling/16_file_handling.md)|
+| **17**     | [🌀 **Concurrency**](./17_Concurrency/17_concurrency.md)|
+| **18**     | [⚡ **Asynchronous Programming**](./18_Asynchronous%20Programming/18_asynchronous_programming.md)|
+| **19**     | [🌐 **Networking**](./19_Networking/19_networking.md)|
+| **20**     | [💀 **Unsafe Rust**](./20_Unsafe%20Rust/20_unsafe_rust.md)|
+| **21**     | [⏳ **Rust Lifetimes**](./21_Rust%20Lifetimes/21_rust_lifetimes.md)|
+| **22**     | [🖥️ **Building CLI Applications**](./22_Building%20CLI%20Applications/22_building_cli_applications.md)|
+| **23**     | [🌍 **Web Development with Rust**](./23_Web%20Development/23_web_development.md)|
+| **24**     | [🔌 **Integrating with C/C++**](./24_Integrating_with_C_C%2B%2B/24_integrating_with_c_c%2B%2B.md)|
+<!--| **25**     | [⚙️ **Rust on Embedded Systems**](./25_Day_Embedded_Systems/25_embedded_systems.md)|
+| **26**     | [🌐 **Rust and WebAssembly**](./26_Day_WebAssembly/26_webassembly.md)|
+| **27**     | [🎨 **Graphics Programming with Rust**](./27_Day_Graphics_Programming/27_graphics_programming.md)|
+| **28**     | [🎮 **Game Development with Rust**](./28_Day_Game_Development/28_game_development.md)|
+| **29**     | [🤖 **Rust and Machine Learning**](./29_Day_Machine_Learning/29_machine_learning.md)|
+| **30**     | [🎉 **Project Wrap-Up & Advanced Concepts**](./30_Day_Project_Wrap-Up/30_project_wrap_up.md)|-->
+
+<!--### 🎉 **Day 30 Highlight: The Grand Finale!**  
+💡 *Congratulations! You've mastered the fundamentals of Rust and explored advanced topics. Celebrate this achievement by creating a personal project or diving deeper into specialized Rust domains.*  
+-->
+
 
 🚀 **Happy Coding in Rust!** 🦀
 
