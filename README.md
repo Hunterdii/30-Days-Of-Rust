@@ -1,4 +1,5 @@
 # 🦀 **30 Days of Rust**  
+✨ *Learn Rust step by step in just 30 days! Each topic builds upon the last to take you from beginner to Rustacean pro!*  
 
 
 ## Progress: ![Progress Badge](https://img.shields.io/static/v1?label=Challenge&message=80%25%20Complete&color=brightgreen&style=flat-square)
@@ -55,6 +56,8 @@
 | **28**     | [🎮 **Game Development with Rust**](./28_Day_Game_Development/28_game_development.md)|
 | **29**     | [🤖 **Rust and Machine Learning**](./29_Day_Machine_Learning/29_machine_learning.md)|
 | **30**     | [🎉 **Project Wrap-Up & Advanced Concepts**](./30_Day_Project_Wrap-Up/30_project_wrap_up.md)|-->
+
+
 
 <!--### 🎉 **Day 30 Highlight: The Grand Finale!**  
 💡 *Congratulations! You've mastered the fundamentals of Rust and explored advanced topics. Celebrate this achievement by creating a personal project or diving deeper into specialized Rust domains.*  
