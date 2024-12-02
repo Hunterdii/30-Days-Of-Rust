@@ -28,7 +28,8 @@ jobs:
     - name: Update README with Progress Badge
       run: |
         # Update README with the progress badge
-        sed -i "s|<progress-placeholder>|![Progress Badge](https://img.shields.io/static/v1?label=Challenge&message=${{ env.progress }}%25%20Complete&color=brightgreen&style=flat-square)|g" README.md
+        badge_url="![Progress Badge](https://img.shields.io/static/v1?label=Challenge&message=${{ env.progress }}%25%20Complete&color=brightgreen&style=flat-square)"
+        sed -i "s|<progress-placeholder>|$badge_url|g" README.md
 
     - name: Commit Changes
       run: |
