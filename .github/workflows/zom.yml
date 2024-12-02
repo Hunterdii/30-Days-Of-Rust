@@ -4,13 +4,14 @@ on:
   delete:
     branches-ignore:
       - main
+  workflow_dispatch:  # This will allow manual triggers
 
 jobs:
-  delete:
+  clean-cache:
     runs-on: ubuntu-latest
+
     steps:
-      - uses: strumwolf/delete-deployment-environment@v2
-        with:
-          # ⚠️ The provided token needs permission for admin write:org
-          token: ${{ secrets.GITHUB_TOKEN }}
-          environment: my-environment-name
+      - name: Clear Cache
+        run: |
+          echo "Clearing Cache"
+          rm -rf ~/.cache/* # You can clear specific cache directories as needed
