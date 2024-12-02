@@ -1,7 +1,7 @@
 # 🦀 **30 Days of Rust**  
 
 
-## Progress: <progress-placeholder>
+## Progress: ![Progress Badge](https://img.shields.io/static/v1?label=Challenge&message=80%25%20Complete&color=brightgreen&style=flat-square)
 
 
 
