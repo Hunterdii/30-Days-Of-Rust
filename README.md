@@ -6,8 +6,6 @@
 
 
 
-
-
 <!--# 🦀 **30 Days of Rust**  
 ✨ *Learn Rust step by step in just 30 days! Each topic builds upon the last to take you from beginner to Rustacean pro!*  
 
@@ -19,8 +17,6 @@
 ```
 
 ![Progress Badge](https://img.shields.io/static/v1?label=Challenge&message=80%25%20Complete&color=brightgreen&style=flat-square)-->
-
-
 
 
 
@@ -74,16 +70,11 @@
   <img src="https://img.shields.io/github/contributors/Hunterdii/30-Days-Of-Rust" alt="GitHub Contributors"/>
   <img src="https://img.shields.io/github/last-commit/Hunterdii/30-Days-Of-Rust?display_timestamp=author&style=flat&logo=30-Days-Of-Rust&logoColor=%23F74C00&logoSize=auto&label=30%20Days%20Of%20Rust&labelColor=Lavender&color=%239b59b6&cacheSeconds=200" alt="Last Commit"/>
   <img src="https://img.shields.io/badge/Owner-%40Huntedii-<COLOR>.svg" alt="Owner Badge"/>
-  
-<!--   <img src="https://img.shields.io/github/stars/Hunterdii/30-Days-Of-Rust?style=social" alt="GitHub Stars"/>-->
-</p> 
+  </p> 
 
 
 
 # Github Stats:
-
-<!--![Progress](https://img.shields.io/badge/Progress%20till-15%20Days-orange) ![Status](https://img.shields.io/badge/Status-Temporarily_Paused-yellow)
-![Sorry for the Inconvenience](https://img.shields.io/badge/Sorry%20for%20the%20Inconvenience-💖%20Heartfelt%20Apologies%20💖-pink?style=for-the-badge)-->
 
 <div align="center">
 
