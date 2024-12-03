@@ -30,15 +30,15 @@ jobs:
           --readme-path "README.md" \
           --badge-path "progress.svg"
 
+    - name: Pull changes
+      run: git pull --rebase origin master
+
     - name: Commit changes
       run: |
         git config --local user.email "github-actions[bot]@users.noreply.github.com"
         git config --local user.name "GitHub Actions"
         git add README.md progress.svg progress_graph.png
         git diff-index --quiet HEAD || git commit -m "Update progress badge"
-
-    - name: Pull changes
-      run: git pull --rebase origin main
 
     - name: Push changes
       uses: ad-m/github-push-action@v0.6.0
