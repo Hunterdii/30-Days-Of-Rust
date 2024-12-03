@@ -4,8 +4,6 @@ on:
   push:
     branches:
       - main
-  schedule:
-    - cron: '0 22 * * *'  # Optional: Set a daily schedule for updates
   workflow_dispatch:  # Manual trigger option
 
 jobs:
@@ -22,17 +20,17 @@ jobs:
 
     - name: Install dependencies
       run: |
-        pip install requests pybadges matplotlib  # Install the necessary packages
+        pip install requests  # You can add any other dependencies you need
 
     - name: Calculate Progress and Update README
       run: |
-        python src/calculate_progress.py ${{ github.repository_owner }} ${{ secrets.GITHUB_TOKEN }} 30-Days-Of-Rust README.md progress.svg
+        python src/calculate_progress.py ${{ github.repository_owner }} ${{ secrets.GITHUB_TOKEN }} README.md
 
     - name: Commit changes
       run: |
         git config --local user.email "github-actions[bot]@users.noreply.github.com"
         git config --local user.name "GitHub Actions"
-        git add README.md progress.svg progress_graph.png
+        git add README.md
         git diff-index --quiet HEAD || git commit -m "Update progress badge"
 
     - name: Pull changes
@@ -41,4 +39,4 @@ jobs:
     - name: Push changes
       uses: ad-m/github-push-action@d91a481090679876dfc4178fef17f286781251df
       with:
-        github_token: ${{ secrets.GITHUB_TOKEN }} 
+        github_token: ${{ secrets.GITHUB_TOKEN }}
