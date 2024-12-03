@@ -222,7 +222,7 @@ To run Rust code, you need to have Rust installed on your system. Let’s get st
 
 For Windows users, run this command in the terminal:
 
-```shell
+```rs
 curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh
 ```
 
@@ -230,7 +230,7 @@ For macOS and Linux users, use the same command in your terminal.
 
 Once you have Rust installed, you can verify it by checking the version:
 
-```shell
+```rs
 rustc --version
 ```
 
@@ -252,19 +252,19 @@ Now, you're ready to start coding! ✨
 
 Let’s create our first Rust project using Cargo, Rust's package manager. Open your terminal and run:
 
-```shell
+```rs
 cargo new hello-rust
 ```
 
 This command will create a new directory named `hello-rust` with the necessary files. Change to the project directory:
 
-```shell
+```rs
 cd hello-rust
 ```
 
 Inside, you'll find `Cargo.toml` (a manifest file for Rust projects) and a `src` directory containing `main.rs`. Let's explore what’s inside.
 
-```rust
+```rs
 fn main() {
     println!("Hello, Rust!");
 }
@@ -272,13 +272,13 @@ fn main() {
 
 To run your first Rust program, type:
 
-```shell
+```rs
 cargo run
 ```
 
 You should see the output:
 
-```shell
+```rs
 Hello, Rust!
 ```
 
@@ -292,7 +292,7 @@ Congratulations! 🎉 You’ve successfully set up your Rust development environ
 
 Create a Rust program that prints your name and the reason you're excited to learn Rust. Here’s a template to get you started:
 
-```rust
+```rs
 fn main() {
     let name = "Your Name";
     let reason = "I'm excited to learn Rust because it's fast and reliable!";
@@ -345,7 +345,7 @@ Non-doc comments are used to annotate your code without being part of the docume
 Single-line comments start with `//` and continue to the end of the line. They are useful for short explanations.
 
 **Example:**
-```rust
+```rs
 fn main() {
     let x = 5; // This is a single-line comment
     println!("Value of x: {}", x);
@@ -361,7 +361,7 @@ Value of x: 5
 Multi-line comments start with `/*` and end with `*/`. They can span multiple lines, making them suitable for longer explanations.
 
 **Example:**
-```rust
+```rs
 fn main() {
     /* This is a multi-line comment.
        It can span multiple lines.
@@ -384,7 +384,7 @@ Doc comments are used to document public APIs and generate documentation using t
 Outer doc comments are placed before functions, structs, or modules and are used to describe them in the generated documentation.
 
 **Example:**
-```rust
+```rs
 /// This function adds two numbers and returns the result.
 fn add(a: i32, b: i32) -> i32 {
     a + b
@@ -397,7 +397,7 @@ In this example, `///` provides a description of what the `add` function does. T
 Inner doc comments are placed within the context of a module, function, or struct, usually to provide more details about the implementation.
 
 **Example:**
-```rust
+```rs
 /// A structure representing a point in 2D space.
 struct Point {
     x: f64,
