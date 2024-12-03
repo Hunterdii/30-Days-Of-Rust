@@ -38,7 +38,7 @@ jobs:
         git diff-index --quiet HEAD || git commit -m "Update progress badge"
 
     - name: Pull changes
-      run: git pull --rebase
+      run: git pull --rebase origin main
 
     - name: Push changes
       uses: ad-m/github-push-action@v0.6.0
