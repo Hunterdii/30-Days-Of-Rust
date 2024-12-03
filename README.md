@@ -1,3 +1,5 @@
+![Progress](progress.svg)
+![Graph](progress_graph.png)
 # 🦀 **30 Days of Rust**  
 ✨ *Learn Rust step by step in just 30 days! Each topic builds upon the last to take you from beginner to Rustacean pro!*  
 
