@@ -48,7 +48,8 @@
   - [💻 Example Project: Blinking an LED](#-example-project-blinking-an-led)  
     - [🖊️ Writing the Firmware](#️-writing-the-firmware)  
     - [🚀 Flashing the Firmware](#-flashing-the-firmware)  
-  - [🛡️ Debugging Tips](#-debugging-tips)  
+  - [🛡️ Debugging Tips](#-debugging-tips)
+  - [🎯 Hands-On Challenge](#-hands-on-challenge) 
   - [💻 Exercises - Day 25](#-exercises---day-25)
     - [✅ Exercise: Level 1](#-exercise-level-1)
     - [🚀 Exercise: Level 2](#-exercise-level-2)
@@ -474,6 +475,167 @@ Debugging embedded systems can be challenging. Here are some tips:
    - Set up an interrupt-driven button press event to toggle an LED state.
 
 
+## 🎯 Hands-On Challenge
+
+### Objective:
+This hands-on challenge will guide you through using Rust for embedded systems development, specifically targeting microcontrollers. The focus will be on learning the basic steps to set up a Rust project for embedded systems, writing simple embedded code, and using debugging tools to test your code.
+
+
+
+### **Challenge 1: Setting Up Your Embedded Rust Project**
+To get started, you'll first need to set up a basic Rust project that targets an embedded system. This will involve:
+
+#### Step 1: Install Rust and Required Toolchains
+1. **Install Rust**: Ensure you have Rust installed by running:
+   ```bash
+   rustup --version
+   ```
+   If it's not installed, download it from the [official website](https://www.rust-lang.org/tools/install).
+
+2. **Install the `nightly` version of Rust** (required for embedded development):
+   ```bash
+   rustup install nightly
+   rustup default nightly
+   ```
+
+3. **Install the target architecture for the embedded system**. If you're working with a common microcontroller like ARM Cortex-M, add the following target:
+   ```bash
+   rustup target add thumbv7em-none-eabihf
+   ```
+
+#### Step 2: Create a New Project
+Now, create a new project using `cargo`:
+```bash
+cargo new --bin embedded_rust_project
+cd embedded_rust_project
+```
+
+#### Step 3: Update `Cargo.toml`
+In the `Cargo.toml` file, add the dependencies for embedded systems. For example, if you’re using the `cortex-m` and `cortex-m-rt` crates for ARM Cortex-M:
+
+```toml
+[dependencies]
+cortex-m = "0.7"
+cortex-m-rt = "0.7"
+```
+
+
+
+### **Challenge 2: Writing Simple Embedded Code**
+
+Now that your project is set up, let’s write a simple embedded program that toggles an LED (assuming your hardware supports it).
+
+#### Step 1: Write the Main Code
+Open the `src/main.rs` file, and add the code for blinking an LED. For this example, you can use the `cortex-m` crate to interact with GPIO pins.
+
+Here’s an example of basic code that runs on a microcontroller and toggles an LED:
+
+```rust
+#![no_std]
+#![no_main]
+
+use cortex_m::prelude::*;
+use cortex_m_rt::entry;
+use stm32f4xx_hal as hal; // Example for STM32F4 series
+
+#[entry]
+fn main() -> ! {
+    let dp = hal::pac::Peripherals::take().unwrap(); // Get the peripherals
+    let rcc = dp.RCC.constrain(); // Clock control
+    let gpioa = dp.GPIOA.split(); // GPIO port A
+
+    let mut led = gpioa.pa5.into_push_pull_output(); // Set pin A5 as output (LED pin)
+
+    loop {
+        led.set_high().unwrap(); // Turn LED on
+        cortex_m::asm::delay(8_000_000); // Delay for a while
+        led.set_low().unwrap(); // Turn LED off
+        cortex_m::asm::delay(8_000_000); // Delay for a while
+    }
+}
+```
+
+This code assumes you're working with an STM32F4 microcontroller, but the logic is similar across most microcontrollers: configure the GPIO, and toggle the LED on and off.
+
+#### Step 2: Build and Flash the Code
+1. **Build your code for the embedded target**:
+   ```bash
+   cargo build --release --target thumbv7em-none-eabihf
+   ```
+
+2. **Flash the firmware to your microcontroller** (depending on your setup, you may use tools like OpenOCD, STM32CubeProgrammer, etc.).
+
+
+
+### **Challenge 3: Debugging the Embedded System**
+
+Debugging embedded systems can be challenging, especially without the right tools. Here’s how to approach debugging:
+
+#### Step 1: Use Debugging Tools
+1. **Use GDB for Debugging**:
+   - Ensure you have GDB installed (you may need a version of GDB that supports your embedded system).
+   - Use the following command to start GDB:
+     ```bash
+     gdb target/thumbv7em-none-eabihf/debug/embedded_rust_project
+     ```
+   
+2. **Monitor Logs and Debug Output**:
+   - You can use `probe-rs` (a Rust crate) for debugging and flashing embedded systems.
+   - Run the following to install `probe-rs`:
+     ```bash
+     cargo install probe-rs-cli
+     ```
+   - Flash and debug the system:
+     ```bash
+     probe-rs flash --chip <your-chip> --verbose
+     ```
+
+
+
+### **Challenge 4: Exploring Interrupts (Advanced)**
+In this challenge, you’ll work with interrupts to handle events like external button presses.
+
+1. **Set Up the Interrupt**: Configure the GPIO pin for an external button press (interrupt).
+2. **Implement the Interrupt Handler**: Write the code to trigger an event (e.g., toggle the LED) when the button is pressed.
+
+Here’s a simplified example of handling an interrupt:
+```rust
+use cortex_m::peripheral::NVIC;
+use cortex_m_rt::entry;
+use stm32f4xx_hal::gpio::{Edge, Input, PullUp};
+use stm32f4xx_hal::prelude::*;
+
+#[entry]
+fn main() -> ! {
+    let dp = stm32f4xx_hal::pac::Peripherals::take().unwrap();
+    let gpioa = dp.GPIOA.split();
+
+    // Set PA0 as input for the button with pull-up resistor
+    let mut button = gpioa.pa0.into_pull_up_input();
+
+    // Enable interrupt on rising edge (button press)
+    button.make_interrupt_source(&dp.SYSCFG);
+    button.enable_interrupt(&dp.EXTI);
+    NVIC::unmask(stm32f4xx_hal::pac::Interrupt::EXTI0);
+
+    loop {
+        // Wait for interrupt to trigger
+        cortex_m::asm::wfi();
+    }
+}
+
+#[interrupt]
+fn EXTI0() {
+    // Interrupt handler for button press
+    // Toggle the LED or perform other actions
+}
+```
+
+
+
+### **Challenge 5: Further Exploration and Optimization**
+
+After completing the basic setup and challenges, dive deeper by optimizing the system, exploring real-time operating systems (RTOS), or adding communication protocols like SPI or I2C.
 
 ## 💻 **Exercises - Day 25**
 
