@@ -443,38 +443,6 @@ Debugging embedded systems can be challenging. Here are some tips:
     probe-rs debug
     ```
 
-
-
-## 🎯 Hands-On Challenge  
-
-
-1. **Advanced Challenge**:  
-   - Read sensor data (e.g., temperature) using I2C or SPI.  
-   - Display sensor data on an LCD screen.  
-
-2. **Integrate with RTOS**:  
-   - Implement task scheduling using `RTIC`.  
-
-- Blink an LED with a button.  
-- Send data via UART to a serial console.
-
-
-### **Challenge**: Build a Rust-based embedded application to control hardware peripherals.  
-
-#### Your Tasks:
-1. **Blink an LED**: 
-   - Use GPIO to control an LED and make it blink in a pattern.
-   
-2. **Measure Sensor Data**:
-   - Interface with an I2C temperature sensor to read and display data.
-   
-3. **Create a Real-Time Clock**:
-   - Use an embedded timer to implement a clock that toggles an LED every second.
-
-4. **Handle Interrupts**:
-   - Set up an interrupt-driven button press event to toggle an LED state.
-
-
 ## 🎯 Hands-On Challenge
 
 ### Objective:
