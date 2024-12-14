@@ -2,8 +2,7 @@
 ✨ *Learn Rust step by step in just 30 days! Each topic builds upon the last to take you from beginner to Rustacean pro!*  
 
 
-## Progress: ![Progress Badge](https://img.shields.io/static/v1?label=Challenge&message=83%25%20Complete&color=4c1&style=for-the-badge&logo=github&logoColor=white)
-
+## Progress: <progress-placeholder>
 
 
 <!--# 🦀 **30 Days of Rust**  
