@@ -48,8 +48,8 @@
 | **24**     | [🔌 **Integrating with C/C++**](./24_Integrating_with_C_C%2B%2B/24_integrating_with_c_c%2B%2B.md)|
 | **25**     | [⚙️ **Rust on Embedded Systems**](./25_Rust%20on%20Embedded%20Systems/25_rust_on_embedded_systems.md)|
 | **26**     | [🌐 **Rust and WebAssembly**](./26_Rust%20and%20WebAssembly/26_rust_and_webassembly.md)|
-<!--| **27**     | [🎨 **Graphics Programming with Rust**](./27_Day_Graphics_Programming/27_graphics_programming.md)|
-| **28**     | [🎮 **Game Development with Rust**](./28_Day_Game_Development/28_game_development.md)|
+| **27**     | [🎨 **Graphics Programming with Rust**](./27_Graphics%20Programming%20with%20Rust/27_graphics_programming_with_rust.md)|
+<!--| **28**     | [🎮 **Game Development with Rust**](./28_Day_Game_Development/28_game_development.md)|
 | **29**     | [🤖 **Rust and Machine Learning**](./29_Day_Machine_Learning/29_machine_learning.md)|
 | **30**     | [🎉 **Project Wrap-Up & Advanced Concepts**](./30_Day_Project_Wrap-Up/30_project_wrap_up.md)|-->
 
