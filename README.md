@@ -2,21 +2,12 @@
 ✨ *Learn Rust step by step in just 30 days! Each topic builds upon the last to take you from beginner to Rustacean pro!*  
 
 
-## Progress: ![Progress Badge](https://img.shields.io/static/v1?label=Challenge&message=90%25%20Complete&color=4c1&style=for-the-badge&logo=github&logoColor=white)
-
-
-<!--# 🦀 **30 Days of Rust**  
-✨ *Learn Rust step by step in just 30 days! Each topic builds upon the last to take you from beginner to Rustacean pro!*  
-
-
-### 🏆 **Progress Tracker**  
-📈 **Your Progress:** 80% Complete  
+<!--### 🏆 **Progress Tracker**  
+📈 **Your Progress:** 100% Complete  
 ```
-█████████████████████████░░░░░░░░
+██████████████████████████████
 ```
-
-![Progress Badge](https://img.shields.io/static/v1?label=Challenge&message=80%25%20Complete&color=brightgreen&style=flat-square)-->
-
+-->
 
 
 | 🌟 **Day**   | 📝 **Topics**                                                   |
@@ -48,9 +39,9 @@
 | **25**     | [⚙️ **Rust on Embedded Systems**](./25_Rust%20on%20Embedded%20Systems/25_rust_on_embedded_systems.md)|
 | **26**     | [🌐 **Rust and WebAssembly**](./26_Rust%20and%20WebAssembly/26_rust_and_webassembly.md)|
 | **27**     | [🎨 **Graphics Programming with Rust**](./27_Graphics%20Programming%20with%20Rust/27_graphics_programming_with_rust.md)|
-<!--| **28**     | [🎮 **Game Development with Rust**](./28_Day_Game_Development/28_game_development.md)|
-| **29**     | [🤖 **Rust and Machine Learning**](./29_Day_Machine_Learning/29_machine_learning.md)|
-| **30**     | [🎉 **Project Wrap-Up & Advanced Concepts**](./30_Day_Project_Wrap-Up/30_project_wrap_up.md)|-->
+| **28**     | [🎮 **Game Development with Rust**](./28_Game%20Development%20with%20Rust/28_game_development_with_rust.md)|
+| **29**     | [🤖 **Rust and Machine Learning**](./29_Rust%20and%20Machine%20Learning/29_rust_and_machine_learning.md)|
+| **30**     | [🎉 **Project Wrap-Up & Advanced Concepts**](./30_Project%20Wrap-Up%20%26%20Advanced%20Concepts/30_project_wrap_up_%26_advanced_concepts.md)|
 
 
 
