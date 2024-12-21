@@ -19,7 +19,7 @@
 
 ![30DaysOfRust](https://github.com/user-attachments/assets/a1083fb3-3eec-4d1e-b93a-fa4d7a99f180)
 
-- [📘 Day 27 - Graphics Programming with Rust 🎨](#-day-27graphics-programming-with-rust-)
+- [📘 Day 27 - Graphics Programming with Rust 🎨](#-day-27---graphics-programming-with-rust-)
   - [👋 Welcome](#-welcome)  
   - [🎨 What is Graphics Programming?](#-what-is-graphics-programming)
   - [🛠 Tools and Libraries for Graphics in Rust](#-tools-and-libraries-for-graphics-in-rust)  
@@ -54,7 +54,7 @@
   - [📝 Day 27 Summary](#day-27-summary)  
 
 
-
+---
 
 # 📘 Day 27 - Graphics Programming with Rust 🎨
 
@@ -646,8 +646,8 @@ Once you have a basic understanding of graphics programming with Rust, you can d
 - Implement **camera controls** to move through a 3D scene.
 
 ## 🎥 Helpful Video References
-- [Rust Graphics Programming - YouTube](https://www.youtube.com/watch?v=example)
-- [Rust Shaders - YouTube](https://www.youtube.com/watch?v=example)
+- [Rust Graphics Programming](https://youtube.com/playlist?list=PL_UrKDEhALdJS0VrLPn7dqC5A4W1vCAUT&si=X02AyVZeqfOhmcer)
+- [Rust Shaders](https://www.youtube.com/watch?v=tUf2UhYYN6Y)
 
 ## 📚 Further Reading
 - [Rust and Graphics Programming](https://www.rust-lang.org/)
