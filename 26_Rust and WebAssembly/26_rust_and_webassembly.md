@@ -81,7 +81,6 @@ By the end of this lesson, you will:
 - Write and run a simple WebAssembly program using Rust.
 - Understand WebAssembly’s memory management model and its key concepts.
 
-  
 
 ## 🔍 What is WebAssembly?  
 

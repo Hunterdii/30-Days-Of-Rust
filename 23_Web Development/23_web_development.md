@@ -302,7 +302,6 @@ let app = Router::new()
 ```
 
 
-
 ## 🛠 Handling Requests and Responses  
 
 Use `axum`’s request extractors to handle data:  

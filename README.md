@@ -276,7 +276,7 @@ Congratulations! 🎉 You’ve successfully set up your Rust development environ
 
 🛡️ *Boom! You’ve successfully written and executed your first Rust program!*
 
----
+
 
 ## 🎯 Hands-On Challenge
 
@@ -292,7 +292,7 @@ fn main() {
 
 ✅ **Share your solution on GitHub and tag `#30DaysOfRust` on social media!** Let the world know you’ve begun your Rust journey! 🚀
 
----
+
 
 ## 🎥 Helpful Video References
 

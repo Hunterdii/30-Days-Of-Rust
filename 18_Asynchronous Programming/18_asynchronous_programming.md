@@ -56,7 +56,6 @@ Welcome to **Day 18** of the **30 Days of Rust Challenge**! 🎉
 Today’s focus is **Asynchronous Programming in Rust**—a critical paradigm for building modern, efficient, and scalable systems. Async programming is all about handling tasks like I/O, event-driven code, and network communication without blocking execution. Rust offers a unique async model powered by its **zero-cost abstractions** and **compile-time guarantees** for safety.
 
 
-
 ## 🔍 Overview
 
 ### Why Async Programming?

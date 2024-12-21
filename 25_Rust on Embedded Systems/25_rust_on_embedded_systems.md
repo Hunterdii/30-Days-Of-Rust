@@ -85,7 +85,6 @@ By the end of this lesson, you will:
 - Write a basic Rust program for a microcontroller.  
 - Learn tools and frameworks to streamline embedded development.  
 
-
 ## 🔍 What Are Embedded Systems?  
 
 Embedded systems are computers designed for specific tasks, often integrated into larger systems. Unlike general-purpose computers, they operate under strict constraints: limited memory, real-time requirements, and low power consumption.  

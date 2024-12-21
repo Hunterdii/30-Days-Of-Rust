@@ -110,7 +110,6 @@ Here are the most popular tools and libraries for graphics programming:
 | **`glium`**       | Safe OpenGL bindings for Rust.                                |  
 
 
-
 ## 🛠️ Why Use Rust for Graphics Programming?  
 
 Rust is an excellent choice for graphics programming because:  

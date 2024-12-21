@@ -255,8 +255,6 @@ fn main() {
 }
 ```
 
-
-
 ## ⚠️ Safety Considerations
 
 When dealing with FFI, Rust's safety guarantees can be bypassed. The `unsafe` keyword is used when interacting with foreign functions, as FFI inherently involves the risk of memory corruption, undefined behavior, and other pitfalls.

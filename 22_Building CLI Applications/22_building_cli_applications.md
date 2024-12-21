@@ -122,7 +122,6 @@ Arguments: ["target/debug/cli_app", "arg1", "arg2", "arg3"]
 ```
 
 
-
 ## 📦 Using `clap` for Command-Line Parsing  
 
 The [`clap`](https://crates.io/crates/clap) crate is the most popular library for building powerful CLI tools in Rust. It provides:  

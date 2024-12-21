@@ -82,8 +82,6 @@ In Rust, **lifetimes** address two primary concerns:
 
 In essence, lifetimes are Rust's way of tracking how long references are valid. Without them, it would be easy to create invalid references, leading to **undefined behavior**.
 
-
-
 ## 📜 What Are Lifetimes?  
 
 A **lifetime** in Rust is the scope during which a reference is valid. Lifetimes are usually inferred by the Rust compiler, but in some cases, explicit annotations are required.

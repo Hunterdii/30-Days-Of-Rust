@@ -71,8 +71,6 @@ Rust’s networking capabilities are robust, offering both synchronous and async
 3. **Asynchronous Networking**:  
    Handling multiple connections without blocking, allowing for highly scalable systems. This is often done using `tokio` and `async` in Rust.  
 
-
-
 ## 🛠 Environment Setup  
 
 If you have already set up your Rust environment on **Day 1**, you’re good to go! Otherwise, check out the [Environment Setup](../README.md#-environment-setup) section for detailed instructions. Ensure you have **Cargo** installed by running:

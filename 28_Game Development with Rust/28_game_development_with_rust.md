@@ -351,8 +351,6 @@ fn main() {
 }
 ```
 
-
-
 ## 🎮 **Player Input**  
 
 Handling player input involves capturing events such as keyboard and mouse actions and mapping them to gameplay mechanics.  

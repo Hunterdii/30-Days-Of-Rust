@@ -625,9 +625,6 @@ Expand it further:
 - **Avoid `unwrap`**: Use proper error handling instead of `unwrap()` to make your code more robust.
 
 
-
-
-
 ## 🎉 Congratulations and Next Steps  
 
 Congratulations on completing **30 Days of Rust**! 🎉  

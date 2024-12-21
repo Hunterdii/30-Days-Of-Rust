@@ -371,8 +371,6 @@ unsafe {
 3. **Document Assumptions**: Clearly explain the invariants required for unsafe code to work correctly.  
 4. **Test Thoroughly**: Always test unsafe code thoroughly to avoid undefined behavior.
 
-
-
 ## **🔎 Real-World Scenarios for Unsafe Rust**  
 
 ### **1. Calling C Functions (FFI)**  
