@@ -20,7 +20,8 @@
 ![30DaysOfRust](https://github.com/user-attachments/assets/a1083fb3-3eec-4d1e-b93a-fa4d7a99f180)
 
 - [📘 Day 28 - Game Development with Rust 🎮](#-day-28---game-development-with-rust-)
-  - [👋 Welcome](#-welcome)  
+  - [👋 Welcome](#-welcome)
+  - [🎯 Why Rust for Game Development?](#-why-rust-for-game-development)
   - [🎮 Introduction to Game Development](#-introduction-to-game-development)  
   - [🛠️ Setting Up a Rust Game Development Project](#️-setting-up-a-rust-game-development-project)  
   - [📦 Game Development Libraries and Frameworks](#-game-development-libraries-and-frameworks)  
@@ -32,7 +33,8 @@
   - [⚙️ Handling Game Physics and Input](#-handling-game-physics-and-input)  
     - [🌌 Game Physics](#-game-physics)  
     - [🎮 Player Input](#-player-input)  
-  - [🧑‍🤝‍🧑 Multiplayer Game Development](#-multiplayer-game-development)  
+  - [🧑‍🤝‍🧑 Multiplayer Game Development](#-multiplayer-game-development)
+  - [🎲 Your First Rust Game: A Simple Pong Clone](#-your-first-rust-game-a-simple-pong-clone)
   - [🚀 Advanced Concepts in Rust Game Development](#-advanced-concepts-in-rust-game-development)
   - [⚙️ 1. Using ECS for Complex Games](#️-1-using-ecs-for-complex-games)  
   - [🏎️ 2. Optimizing Game Performance](#️-2-optimizing-game-performance)  
@@ -56,6 +58,23 @@ Welcome to **Day 28** of the **30 Days of Rust Challenge**! 🎉
 
 Today, we will dive deep into **game development** with Rust. Rust’s performance, safety, and concurrency model make it an excellent choice for building both 2D and 3D games. By the end of this lesson, you’ll have the knowledge to get started on creating your own game in Rust.  
 
+By the end of today, you’ll:  
+1. Understand why Rust is a powerful choice for game development.  
+2. Explore popular game development frameworks like **Bevy** and **ggez**.  
+3. Build your first game in Rust—a simple **Pong clone**.  
+
+## 🎯 Why Rust for Game Development?  
+
+Rust’s key features make it a compelling choice for game developers:  
+
+| **Feature**                | **Benefits for Game Development**                      |
+|-|-|
+| **Memory Safety**           | Prevents crashes and undefined behavior during gameplay. |
+| **High Performance**        | Zero-cost abstractions and direct hardware access for smooth rendering. |
+| **Concurrency**             | Makes it easy to build multi-threaded games for better performance. |
+| **Modern Ecosystem**        | Libraries like **Bevy**, **ggez**, and **nphysics** simplify development. |
+
+Rust combines the performance of C++ with the safety and modern tooling of higher-level languages, making it ideal for real-time applications like games.
 
 
 ## 🎮 Introduction to Game Development  
@@ -77,21 +96,42 @@ Rust provides high performance, which is crucial for real-time applications like
    ```bash
    rustup update
    ```
-
 2. **Create a New Project**:  
    ```bash
-   cargo new game_project --bin
-   cd game_project
+   cargo new rust_game --bin
+   cd rust_game
    ```
 
-3. **Add Dependencies**: For game development, you’ll likely need libraries for graphics, input handling, and audio. These will be included in the `Cargo.toml` file.
+3. **Add a Game Framework**:  
+   For this tutorial, we’ll use **ggez** to build our first game:  
+   ```toml
+   [dependencies]
+   ggez = "0.7"
+   ```
 
 
-Rust is a modern systems programming language that offers **high performance**, **memory safety**, and **concurrency**—ideal for building games. Its growing ecosystem includes several libraries and frameworks that make game development accessible for developers of all experience levels.
+4. **Add Dependencies**: For game development, you’ll likely need libraries for graphics, input handling, and audio. These will be included in the `Cargo.toml` file.
 
 
 
 ## 📦 Game Development Libraries and Frameworks  
+
+Rust is a modern systems programming language that offers **high performance**, **memory safety**, and **concurrency**—ideal for building games. Its growing ecosystem includes several libraries and frameworks that make game development accessible for developers of all experience levels.
+
+Here are the top tools and frameworks for game development in Rust:  
+
+| **Framework**    | **Description**                                                | **Use Case**         |
+|-|-|-|
+| **Bevy**          | A modern game engine with ECS (Entity-Component-System) architecture. | 2D/3D games.         |
+| **ggez**          | A lightweight library for 2D game development.                 | 2D arcade games.     |
+| **Amethyst**      | A highly customizable game engine with ECS and rendering pipelines. | Complex 2D/3D games. |
+| **Piston**        | A modular game engine for 2D and GUI applications.             | 2D games, tools.     |
+| **macroquad**     | A simple and fast library for 2D/3D games with WebAssembly support. | Browser games.       |
+
+### Choosing the Right Framework  
+- Use **Bevy** for large-scale, modern games with ECS.  
+- Use **ggez** or **macroquad** for small to medium 2D games.  
+
 
 Rust provides an extensive range of libraries and frameworks tailored for game development. Let’s explore some of the most popular ones:  
 
@@ -539,6 +579,116 @@ Here’s an overview of how to build a simple client-server multiplayer game in 
 3. **Game Logic**:  
    The server maintains the game state (e.g., player positions, scores, etc.) and updates it based on the messages it receives from clients. It then broadcasts the updated state to all players.
 
+
+
+## 🎲 Your First Rust Game: A Simple Pong Clone  
+
+Let’s build a basic Pong game in Rust using the **ggez** library.  
+
+### 1. Setting Up the Game Loop  
+
+Create a game loop to handle rendering and logic updates:  
+
+```rust
+use ggez::{Context, ContextBuilder, GameResult};
+use ggez::event::{self, EventHandler};
+
+struct PongGame;
+
+impl EventHandler for PongGame {
+    fn update(&mut self, _ctx: &mut Context) -> GameResult<()> {
+        Ok(())
+    }
+
+    fn draw(&mut self, ctx: &mut Context) -> GameResult<()> {
+        ggez::graphics::clear(ctx, ggez::graphics::Color::BLACK);
+        ggez::graphics::present(ctx)?;
+        Ok(())
+    }
+}
+
+fn main() -> GameResult {
+    let (mut ctx, mut event_loop) = ContextBuilder::new("pong", "Author")
+        .build()
+        .expect("Failed to create context");
+
+    let mut game = PongGame;
+    event::run(&mut ctx, &mut event_loop, &mut game)
+}
+```
+
+
+
+### 2. Drawing the Game Screen  
+
+Add paddles and a ball to the screen:  
+
+```rust
+fn draw(&mut self, ctx: &mut Context) -> GameResult<()> {
+    use ggez::graphics;
+
+    ggez::graphics::clear(ctx, graphics::Color::BLACK);
+
+    let paddle = graphics::Rect::new(20.0, 100.0, 10.0, 50.0);
+    let ball = graphics::Rect::new(100.0, 100.0, 10.0, 10.0);
+
+    let paddle_mesh = graphics::Mesh::new_rectangle(ctx, graphics::DrawMode::fill(), paddle, graphics::Color::WHITE)?;
+    let ball_mesh = graphics::Mesh::new_rectangle(ctx, graphics::DrawMode::fill(), ball, graphics::Color::WHITE)?;
+
+    graphics::draw(ctx, &paddle_mesh, graphics::DrawParam::default())?;
+    graphics::draw(ctx, &ball_mesh, graphics::DrawParam::default())?;
+
+    graphics::present(ctx)?;
+    Ok(())
+}
+```
+
+
+
+### 3. Handling Player Input  
+
+Move the paddle using the keyboard:  
+
+```rust
+use ggez::input::keyboard::{KeyCode, is_key_pressed};
+
+fn update(&mut self, ctx: &mut Context) -> GameResult<()> {
+    if is_key_pressed(ctx, KeyCode::Up) {
+        self.paddle_position.y -= 5.0;
+    }
+    if is_key_pressed(ctx, KeyCode::Down)
+
+ {
+        self.paddle_position.y += 5.0;
+    }
+    Ok(())
+}
+```
+
+
+
+### 4. Adding Game Logic  
+
+Include collision detection and ball movement:  
+
+```rust
+fn update(&mut self, ctx: &mut Context) -> GameResult<()> {
+    // Ball movement
+    self.ball_position.x += self.ball_velocity.x;
+    self.ball_position.y += self.ball_velocity.y;
+
+    // Collision with walls
+    if self.ball_position.y <= 0.0 || self.ball_position.y >= SCREEN_HEIGHT {
+        self.ball_velocity.y = -self.ball_velocity.y;
+    }
+
+    // Collision with paddles
+    if self.ball_position.collides_with(&self.paddle_rect) {
+        self.ball_velocity.x = -self.ball_velocity.x;
+    }
+    Ok(())
+}
+```
 
 ## 🚀 Advanced Concepts in Rust Game Development  
 
