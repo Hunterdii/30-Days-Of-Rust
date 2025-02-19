@@ -339,8 +339,7 @@ fn main() {
 2. Declare a boolean variable `is_learning_rust` and set it to `true`. Print the value.
 3. Create a character variable `favorite_letter` and assign it your favorite letter. Print it.
 4. Create an array of integers called `my_scores` that holds your last five test scores. Print the entire array.
-5. Use a loop to iterate over the `my_scores` array and print each score.
-6. Create a string variable `hobby` and assign it one of your hobbies. Print it, and then concatenate it with another string to create a sentence (e.g., "I enjoy [hobby]!"). Print the complete sentence.
+5. Create a string variable `hobby` and assign it one of your hobbies. Print it, and then concatenate it with another string to create a sentence (e.g., "I enjoy [hobby]!"). Print the complete sentence.
 
 ## 🎥 Helpful Video References
 
